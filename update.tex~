@@ -12,50 +12,92 @@
 \usetikzlibrary{arrows, shapes, trees, backgrounds, calc}
 \usepackage{hyperref}
 \usepackage{setspace}
+\usepackage{multirow}
 
 \newcommand{\theauthor}{NEIL ELIOT}
-\newcommand{\thetitle}{CURRENT STATE OF PhD}
-\newcommand{\themonth}{July}
-\newcommand{\theyear}{2015}
+\newcommand{\thetitle}{CORRECTIONS}
+\newcommand{\themonth}{June}
+\newcommand{\theyear}{2017}
 
 \begin{document}
 \setcounter{section}{0}
 \setcounter{chapter}{1}
 \begin{Huge}
 \begin{center}
-\textbf{Update on PhD Progress}
+\textbf{PhD Corrections}
 \end{center}
 \end{Huge}
 \section{Introduction}
-There are currently two components underway on the PhD the main Thesis writeup and the inclusion of a Research publication looking at the internal moveent of swarms and a metric.
 
-\section{Main Thesis}
+\section{Bibliography}
 
-The main sections of the thesis were written over a year ago and need major rewriting.
+\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+(PJ \& KS)\
+Dates in references are appearing twice
+&
+  \begin{tabular}{p{10cm}}
+  References 6, 7, 9, 10, 11, 12, 14, 15, 16, 18, 20, 24, 25, 28, 33, 37, 41, 47, 50, 52, 54, 55, 56, 58, 59, 61, 65, 67, 69, 71, 74, 76, 77, 78, 79, 82, 86, 90, 93, 94, 96, 98, 100, 113, 118, 126, 127, 130, 137, 139, 140, 141, 142, 146, 147, 150, 151, 152, 154, 155, 156, 157, 158, 161 \\\hline
+  ? \\   
+  \end{tabular} \\\hline
+\end{tabular} \newline
 
-\subsection{Abstract}
-Completely defunct and a simple placeholder upon completion.
+\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+(KS)\
+No dates 
+&
+  \begin{tabular}{p{10cm}}
+   References 21, 60, 70, 75, 92, 135  \\\hline
+  ? \\   
+  \end{tabular} \\\hline
+\end{tabular}\newline
 
-\subsection{Introduction}
-Currently in second draft having added bibtex to the referencing and converted graphics to postscript format. This section still needs to be re-organised as the sequencing is now out and some of the content moved to Methods. Covers main uses of swarming and literature review.
+\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+(KS)\
+References with no publisher
+&
+  \begin{tabular}{p{10cm}}
+  References 27, 30, 36, 42, 44, 48, 49, 51, 52, 53, 57, 60, 63, 68, 73, 81, 83, 84, 87, 88, 89, 101, 103, 108, 109, 115, 132, 149 \\\hline
+  ? \\   
+  \end{tabular} \\\hline
+\end{tabular}\newline
 
-\subsection{Methods Techniques Tools}
-Revisions needed as still contains the old version and content from the Introduction needs to replace it. This section will now be the mechanisms employed to create a swarm.
+\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+(KS)\
+References with capitalised Author
+&
+  \begin{tabular}{p{10cm}}
+  References 88, 149  \\\hline
+  ? \\   
+  \end{tabular} \\\hline
+\end{tabular}\newline
 
-\subsection{Contribution 1}\label{contrib1}
-This now needs to be the paper currently under development (\ref{paper1}) as it is needed for the analysis of the effects of some of the other contributions.
+\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+(KS)\
+References requiring pages
+&
+  \begin{tabular}{p{10cm}}
+  Reference 117  \\\hline
+  ? \\   
+  \end{tabular} \\\hline
+\end{tabular}\newline
 
-\subsection{Contribution 2}
-This now needs to be "Energy efficiency via reduced GPS usage". The current write up covers full and partial perimeter detection to limit the number of participants that need to be using there GPS. This now needs to be extended using the new metric (\ref{contrib1}) to highlight changes and reduction in energy consumption (presumed due to reduced movement).  
 
-\subsection{Contribution 3}
-This section is to be "Reduction of Voids". Currently it is written up badly and needs to include improvements in energy effciency, again, using the metric from Contribution 1 (\ref{contrib1})
 
-\subsection{Evaluation}
-Not started.
+\section{Abstract}
 
-\section{Research Publication}\label{paper1}
-Currently in draft form requiring final updates to language and possible updates to structure. 
+\section{Introduction}
+
+\section{Methods Techniques Tools}
+
+\section{Magnitude Metric}\label{contrib1}
+
+\section{Swarm Type}
+
+\section{Perimeter Coordination}
+
+\section{Flood Filling}
+
+\section{Future Work}\label{paper1}
 
 \end{document}
 
