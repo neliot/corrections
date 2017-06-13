@@ -31,7 +31,7 @@
 
 \section{Bibliography}
 
-\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (PJ \& KS)\
 Dates in references are appearing twice
 &
@@ -41,7 +41,7 @@ Dates in references are appearing twice
   \end{tabular} \\\hline
 \end{tabular} \newline
 
-\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (KS)\
 No dates 
 &
@@ -51,7 +51,7 @@ No dates
   \end{tabular} \\\hline
 \end{tabular}\newline
 
-\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (KS)\
 References with no publisher
 &
@@ -61,7 +61,7 @@ References with no publisher
   \end{tabular} \\\hline
 \end{tabular}\newline
 
-\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (KS)\
 References with capitalised Author
 &
@@ -71,7 +71,7 @@ References with capitalised Author
   \end{tabular} \\\hline
 \end{tabular}\newline
 
-\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (KS)\
 References requiring page numbers
 &
@@ -87,7 +87,7 @@ References requiring page numbers
 
 \section{Methods Techniques Tools}
 
-\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (PJ)\
 Citations sections 2.1, 2.7
 &
@@ -97,7 +97,7 @@ Citations sections 2.1, 2.7
   \end{tabular} \\\hline
 \end{tabular}\newline
 
-\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (PJ)\
 Typo
 &
@@ -107,7 +107,7 @@ Typo
   \end{tabular} \\\hline
 \end{tabular}\newline
 
-\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (PJ)\
 Incorrect reference
 &
@@ -117,7 +117,7 @@ Incorrect reference
   \end{tabular} \\\hline
 \end{tabular}\newline
 
-\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (PJ)\
 Formulae 2.1, 2.3, 2.4 - Formula notation
 &
@@ -136,7 +136,7 @@ $\{o\ \in O~:~||bo|| <= O_b\}$
   \end{tabular} \\\hline
 \end{tabular}\newline
 
-\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (PJ)\
 Section 2.6 - Sentence restructure
 &
@@ -146,7 +146,7 @@ Section 2.6 - Sentence restructure
   \end{tabular} \\\hline
 \end{tabular}\newline
 
-\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (PJ)\
 Section 2.8 - Special case reference error
 &
@@ -156,8 +156,7 @@ Section 2.8 - Special case reference error
   \end{tabular} \\\hline
 \end{tabular}\newline
 
-
-\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+\noindent \begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (PJ)\
 Spelling
 &
@@ -167,7 +166,7 @@ Spelling
   \end{tabular} \\\hline
 \end{tabular}\newline
 
-\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (PJ)\
 Expand Conclusion
 &
@@ -177,7 +176,7 @@ Expand Conclusion
   \end{tabular} \\\hline
 \end{tabular}\newline
 
-\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (PJ)\
 Explain \string^
 &
@@ -187,7 +186,7 @@ Explain \string^
   \end{tabular} \\\hline
 \end{tabular}\newline
 
-\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (PJ)\
 No equation
 &
@@ -199,11 +198,61 @@ No equation
 
 \section{Magnitude Metric}\label{contrib1}
 
+\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+(PJ)\
+Table 4.2 -> 3.2 Explain Labels
+&
+  \begin{tabular}{p{10cm}}
+  Log, Id, N.Id\\\hline
+  Labels expanded in text\\   
+  \end{tabular} \\\hline
+\end{tabular}\newline
+
+\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+(PJ)\
+Section 4.2 -> 3.2 Sentence error
+&
+  \begin{tabular}{p{10cm}}
+  vectorTable 4.4\\\hline
+  vector. Table 4.4\\   
+  \end{tabular} \\\hline
+\end{tabular}\newline
+
+\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+(PJ)\
+Section 4.3 -> 3.3 Punctuation
+&
+  \begin{tabular}{p{10cm}}
+  = 0) The\\\hline
+  = 0). The\\   
+  \end{tabular} \\\hline
+\end{tabular}\newline
+
+\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+(PJ)\
+Diagram 4.7 -> 3.7 Label error
+&
+  \begin{tabular}{p{10cm}}
+  bot\\\hline
+  agent\\   
+  \end{tabular} \\\hline
+\end{tabular}\newline
+
+\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+(KS)\
+Equations 4.2, 4.3, 4.4, 4.6, 4.7, 4.8 and inline equations cardinality notation changed
+&
+  \begin{tabular}{p{10cm}}
+  |.|\\\hline
+  ||.||\\   
+  \end{tabular} \\\hline
+\end{tabular}\newline
+
 \section{Swarm Type}
 
 \section{Perimeter Coordination}
 
-\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (PJ)\
 Fig 28, 29
 &
