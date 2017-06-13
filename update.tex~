@@ -200,7 +200,7 @@ No equation
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (PJ)\
-Table 4.2 -> 3.2 Explain Labels
+Table 4.2 $\rightarrow$ 3.2 Explain Labels
 &
   \begin{tabular}{p{10cm}}
   Log, Id, N.Id\\\hline
@@ -210,7 +210,7 @@ Table 4.2 -> 3.2 Explain Labels
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (PJ)\
-Section 4.2 -> 3.2 Sentence error
+Section 4.2 $\rightarrow$ 3.2 Sentence error
 &
   \begin{tabular}{p{10cm}}
   vectorTable 4.4\\\hline
@@ -220,7 +220,7 @@ Section 4.2 -> 3.2 Sentence error
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (PJ)\
-Section 4.3 -> 3.3 Punctuation
+Section 4.3 $\rightarrow$ 3.3 Punctuation
 &
   \begin{tabular}{p{10cm}}
   = 0) The\\\hline
@@ -230,7 +230,7 @@ Section 4.3 -> 3.3 Punctuation
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (PJ)\
-Diagram 4.7 -> 3.7 Label error
+Diagram 4.7 $\rightarrow$ 3.7 Label error
 &
   \begin{tabular}{p{10cm}}
   bot\\\hline
@@ -240,15 +240,46 @@ Diagram 4.7 -> 3.7 Label error
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (KS)\
-Equations 4.2, 4.3, 4.4, 4.6, 4.7, 4.8 and inline equations cardinality notation changed
+Equations 4(3).2, 4(3).3, 4(3).4, 4(3).6, 4(3).7, 4(3).8 and inline equations cardinality notation changed
 &
   \begin{tabular}{p{10cm}}
-  |.|\\\hline
-  ||.||\\   
+  \textbar.\textbar\\\hline
+  \textbar\textbar.\textbar\textbar\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
 \section{Swarm Type}
+
+\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+(PJ)\
+Typo in introduction
+&
+  \begin{tabular}{p{10cm}}
+  is a swarm\\\hline
+  in a swarm\\   
+  \end{tabular} \\\hline
+\end{tabular}\newline
+
+\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+(PJ)\
+Parameter explanation, Table 5.1 $\rightarrow$ 4.1
+&
+  \begin{tabular}{p{10cm}}
+  Explain parameter requirements\\\hline
+  Paragraph added\\   
+  \end{tabular} \\\hline
+\end{tabular}\newline
+
+\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+(PJ)\
+Section 5.2.1 $\rightarrow$ 4.2.1 
+&
+  \begin{tabular}{p{10cm}}
+  Clarify graph mean\\\hline
+  Paragraph extended\\   
+  \end{tabular} \\\hline
+\end{tabular}\newline
+
 
 \section{Perimeter Coordination}
 
