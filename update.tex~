@@ -40,7 +40,59 @@ Terminology
   \end{tabular} \\\hline
 \end{tabular} \newline
 
+\section{Abstract}
+
+\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+(KS)\
+typo 
+&
+  \begin{tabular}{p{10cm}}
+   nodes\\\hline
+   agents\\   
+  \end{tabular} \\\hline
+\end{tabular}\newline
+
 \section{Introduction}
+
+\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+(KS)\
+Section 1.1 explan boid-based 
+&
+  \begin{tabular}{p{10cm}}
+   boid-based\\\hline
+   Paragraph extended to include reference and comparison\\   
+  \end{tabular} \\\hline
+\end{tabular}\newline
+
+\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+(KS)\
+Section 1.3 typo 
+&
+  \begin{tabular}{p{10cm}}
+   fire service [111], as\\\hline
+   fire service [111] as\\   
+  \end{tabular} \\\hline
+\end{tabular}\newline
+
+\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+(KS)\
+Section 1.5 
+&
+  \begin{tabular}{p{10cm}}
+   anomalies `healing'\\\hline
+   anomalies thus `healing'\\   
+  \end{tabular} \\\hline
+\end{tabular}\newline
+
+\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+(KS)\
+Section 1.5 
+&
+  \begin{tabular}{p{10cm}}
+   clarify Hoff reference\\\hline
+   extended sentence to include message propogation reduction\\   
+  \end{tabular} \\\hline
+\end{tabular}\newline
 
 \section{Bibliography}
 
