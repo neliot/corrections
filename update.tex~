@@ -609,6 +609,16 @@ Section 8.2.1 Typo
   \end{tabular} \\\hline
 \end{tabular}\newline
 
+\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+(PJ)\
+Section 8.2.1 Typo
+&
+  \begin{tabular}{p{10cm}}
+  distrurbances\\\hline
+  disturbances\\   
+  \end{tabular} \\\hline
+\end{tabular}\newline
+
 \section{Future Work}\label{paper1}
 
 \end{document}
