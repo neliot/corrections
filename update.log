@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2016.4.11)  13 JUN 2017 15:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2016.4.11)  19 JUN 2017 12:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -834,137 +834,149 @@ LaTeX Info: Redefining \nameref on input line 22.
 \@outlinefile=\write4
 \openout4 = `update.out'.
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 34.
+LaTeX Font Info:    Try loading font information for U+msa on input line 33.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 34.
+LaTeX Font Info:    Try loading font information for U+msb on input line 33.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (21.68202pt too wide) in paragraph at lines 34--43
+Overfull \hbox (21.68202pt too wide) in paragraph at lines 33--42
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 34--43
+Underfull \hbox (badness 10000) in paragraph at lines 33--42
 
  []
 
 
-Overfull \hbox (21.68202pt too wide) in paragraph at lines 44--53
+Overfull \hbox (21.68202pt too wide) in paragraph at lines 47--56
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 44--53
+Underfull \hbox (badness 10000) in paragraph at lines 47--56
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--57
+Overfull \hbox (21.68202pt too wide) in paragraph at lines 57--66
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 57--66
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 68--70
 []|\OT1/cmr/m/n/10.95 (KS) Ref-er-ences
  []
 
 
-Overfull \hbox (21.68202pt too wide) in paragraph at lines 54--63
+Overfull \hbox (21.68202pt too wide) in paragraph at lines 67--76
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 54--63
+Underfull \hbox (badness 10000) in paragraph at lines 67--76
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--67
+Underfull \hbox (badness 10000) in paragraph at lines 78--80
 []|\OT1/cmr/m/n/10.95 (KS) Ref-er-ences
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--67
+Underfull \hbox (badness 10000) in paragraph at lines 78--80
 \OT1/cmr/m/n/10.95 with cap-i-talised
  []
 
 
-Overfull \hbox (21.68202pt too wide) in paragraph at lines 64--73
+Overfull \hbox (21.68202pt too wide) in paragraph at lines 77--86
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 64--73
+Underfull \hbox (badness 10000) in paragraph at lines 77--86
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--77
+Underfull \hbox (badness 10000) in paragraph at lines 88--90
 []|\OT1/cmr/m/n/10.95 (KS) Ref-er-ences
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 75--77
+Underfull \hbox (badness 10000) in paragraph at lines 88--90
 \OT1/cmr/m/n/10.95 re-quir-ing page
  []
 
 
-Overfull \hbox (21.68202pt too wide) in paragraph at lines 74--83
+Overfull \hbox (21.68202pt too wide) in paragraph at lines 87--96
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--83
+Underfull \hbox (badness 10000) in paragraph at lines 87--96
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--93
+Underfull \hbox (badness 10000) in paragraph at lines 104--106
 []|\OT1/cmr/m/n/10.95 (PJ) Ci-ta-tions
  []
 
 
-Overfull \hbox (21.68202pt too wide) in paragraph at lines 90--99
+Overfull \hbox (21.68202pt too wide) in paragraph at lines 103--112
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--99
+Underfull \hbox (badness 10000) in paragraph at lines 103--112
 
  []
 
 
-Overfull \hbox (21.68202pt too wide) in paragraph at lines 100--109
+Overfull \hbox (21.68202pt too wide) in paragraph at lines 113--122
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 100--109
+Underfull \hbox (badness 10000) in paragraph at lines 113--122
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 111--113
+Underfull \hbox (badness 10000) in paragraph at lines 124--126
 []|\OT1/cmr/m/n/10.95 (PJ) In-cor-rect
  []
 
 
-Overfull \hbox (21.68202pt too wide) in paragraph at lines 110--119
+Overfull \hbox (21.68202pt too wide) in paragraph at lines 123--132
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 110--119
+Underfull \hbox (badness 10000) in paragraph at lines 123--132
 
  []
 
+[1
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--123
+]
+Underfull \hbox (badness 10000) in paragraph at lines 134--136
 []|\OT1/cmr/m/n/10.95 (PJ) For-mu-lae
  []
 
 
-Underfull \hbox (badness 4479) in paragraph at lines 121--123
+Underfull \hbox (badness 4479) in paragraph at lines 134--136
 \OT1/cmr/m/n/10.95 2.1, 2.3, 2.4 -
  []
 
@@ -972,296 +984,496 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no Ž in font cmr10!
 
-Overfull \hbox (21.68202pt too wide) in paragraph at lines 120--138
+Overfull \hbox (21.68202pt too wide) in paragraph at lines 133--151
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--138
+Underfull \hbox (badness 10000) in paragraph at lines 133--151
 
  []
 
-[1
 
-]
-Overfull \hbox (21.68202pt too wide) in paragraph at lines 139--148
+Overfull \hbox (21.68202pt too wide) in paragraph at lines 152--161
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 139--148
+Underfull \hbox (badness 10000) in paragraph at lines 152--161
 
  []
 
 
-Overfull \hbox (21.68202pt too wide) in paragraph at lines 149--158
+Overfull \hbox (21.68202pt too wide) in paragraph at lines 162--171
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 149--158
+Underfull \hbox (badness 10000) in paragraph at lines 162--171
 
  []
 
 
-Overfull \hbox (21.68202pt too wide) in paragraph at lines 159--168
+Overfull \hbox (21.68202pt too wide) in paragraph at lines 172--181
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--168
+Underfull \hbox (badness 10000) in paragraph at lines 172--181
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 170--172
+Underfull \hbox (badness 10000) in paragraph at lines 183--185
 []|\OT1/cmr/m/n/10.95 (PJ) Ex-pand
  []
 
 
-Overfull \hbox (21.68202pt too wide) in paragraph at lines 169--178
+Overfull \hbox (21.68202pt too wide) in paragraph at lines 182--191
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 169--178
+Underfull \hbox (badness 10000) in paragraph at lines 182--191
 
  []
 
 
-Overfull \hbox (21.68202pt too wide) in paragraph at lines 179--188
+Overfull \hbox (21.68202pt too wide) in paragraph at lines 192--201
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 179--188
+Underfull \hbox (badness 10000) in paragraph at lines 192--201
 
  []
 
 
-Overfull \hbox (21.68202pt too wide) in paragraph at lines 189--198
+Overfull \hbox (21.68202pt too wide) in paragraph at lines 202--211
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--198
+Underfull \hbox (badness 10000) in paragraph at lines 202--211
 
  []
 
 
-Underfull \hbox (badness 2837) in paragraph at lines 202--204
+Underfull \hbox (badness 3460) in paragraph at lines 215--217
+\OT1/cmr/m/n/10.95 3.1 Ex-plain pa-
+ []
+
+
+Overfull \hbox (21.68202pt too wide) in paragraph at lines 214--223
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--223
+
+ []
+
+
+Underfull \hbox (badness 2837) in paragraph at lines 225--227
 \OT1/cmr/m/n/10.95 3.2 Ex-plain La-
  []
 
 
-Overfull \hbox (21.68202pt too wide) in paragraph at lines 201--210
+Overfull \hbox (21.68202pt too wide) in paragraph at lines 224--233
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 201--210
+Underfull \hbox (badness 10000) in paragraph at lines 224--233
 
  []
 
 
-Underfull \hbox (badness 3078) in paragraph at lines 212--214
+Underfull \hbox (badness 3078) in paragraph at lines 235--237
 \OMS/cmsy/m/n/10.95 !$ \OT1/cmr/m/n/10.95 3.2 Sen-tence
  []
 
 
-Overfull \hbox (21.68202pt too wide) in paragraph at lines 211--220
+Overfull \hbox (21.68202pt too wide) in paragraph at lines 234--243
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 211--220
+Underfull \hbox (badness 10000) in paragraph at lines 234--243
 
  []
 
 
-Underfull \hbox (badness 1577) in paragraph at lines 222--224
+Underfull \hbox (badness 1577) in paragraph at lines 245--247
 \OMS/cmsy/m/n/10.95 !$ \OT1/cmr/m/n/10.95 3.3 Punc-tu-a-
  []
 
 
-Overfull \hbox (21.68202pt too wide) in paragraph at lines 221--230
+Overfull \hbox (21.68202pt too wide) in paragraph at lines 244--253
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--230
+Underfull \hbox (badness 10000) in paragraph at lines 244--253
 
  []
 
-
-Overfull \hbox (21.68202pt too wide) in paragraph at lines 231--240
+[2]
+Overfull \hbox (21.68202pt too wide) in paragraph at lines 254--263
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 231--240
+Underfull \hbox (badness 10000) in paragraph at lines 254--263
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--244
+Underfull \hbox (badness 10000) in paragraph at lines 265--267
 []|\OT1/cmr/m/n/10.95 (KS) Equa-tions
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--244
+Underfull \hbox (badness 10000) in paragraph at lines 265--267
 \OT1/cmr/m/n/10.95 4(3).2, 4(3).3,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--244
+Underfull \hbox (badness 10000) in paragraph at lines 265--267
 \OT1/cmr/m/n/10.95 4(3).4, 4(3).6,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--244
+Underfull \hbox (badness 10000) in paragraph at lines 265--267
 \OT1/cmr/m/n/10.95 4(3).7, 4(3).8
  []
 
 
-Underfull \hbox (badness 1215) in paragraph at lines 242--244
+Underfull \hbox (badness 1215) in paragraph at lines 265--267
 \OT1/cmr/m/n/10.95 and in-line equa-
  []
 
 
-Underfull \hbox (badness 6658) in paragraph at lines 242--244
+Underfull \hbox (badness 6658) in paragraph at lines 265--267
 \OT1/cmr/m/n/10.95 tions car-di-nal-ity
  []
 
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 246.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 269.
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 246.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 269.
 
-Overfull \hbox (21.68202pt too wide) in paragraph at lines 241--250
+Overfull \hbox (21.68202pt too wide) in paragraph at lines 264--273
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 241--250
+Underfull \hbox (badness 10000) in paragraph at lines 264--273
 
  []
 
-[2]
-Overfull \hbox (21.68202pt too wide) in paragraph at lines 253--262
+
+Overfull \hbox (21.68202pt too wide) in paragraph at lines 276--285
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 253--262
+Underfull \hbox (badness 10000) in paragraph at lines 276--285
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 264--266
+Underfull \hbox (badness 10000) in paragraph at lines 287--289
 []|\OT1/cmr/m/n/10.95 (PJ) Pa-ram-e-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 264--266
+Underfull \hbox (badness 10000) in paragraph at lines 287--289
 \OT1/cmr/m/n/10.95 ter ex-pla-na-tion,
  []
 
 
-Overfull \hbox (21.68202pt too wide) in paragraph at lines 263--272
+Overfull \hbox (21.68202pt too wide) in paragraph at lines 286--295
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--272
+Underfull \hbox (badness 10000) in paragraph at lines 286--295
 
  []
 
 
-Overfull \hbox (21.68202pt too wide) in paragraph at lines 273--282
+Overfull \hbox (21.68202pt too wide) in paragraph at lines 296--305
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 273--282
+Underfull \hbox (badness 10000) in paragraph at lines 296--305
 
  []
 
 
-Overfull \hbox (21.68202pt too wide) in paragraph at lines 283--292
+Overfull \hbox (21.68202pt too wide) in paragraph at lines 306--315
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 283--292
+Underfull \hbox (badness 10000) in paragraph at lines 306--315
 
  []
 
 
-Overfull \hbox (21.68202pt too wide) in paragraph at lines 293--302
+Overfull \hbox (21.68202pt too wide) in paragraph at lines 316--325
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 293--302
+Underfull \hbox (badness 10000) in paragraph at lines 316--325
 
  []
 
 
-Underfull \hbox (badness 1577) in paragraph at lines 304--306
+Overfull \hbox (21.68202pt too wide) in paragraph at lines 326--335
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 326--335
+
+ []
+
+
+Underfull \hbox (badness 1577) in paragraph at lines 337--339
 \OMS/cmsy/m/n/10.95 !$ \OT1/cmr/m/n/10.95 4.4 Punc-tu-a-
  []
 
 
-Overfull \hbox (21.68202pt too wide) in paragraph at lines 303--312
+Overfull \hbox (21.68202pt too wide) in paragraph at lines 336--345
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 303--312
+Underfull \hbox (badness 10000) in paragraph at lines 336--345
 
  []
 
 
-Overfull \hbox (21.68202pt too wide) in paragraph at lines 313--322
+Overfull \hbox (21.68202pt too wide) in paragraph at lines 346--355
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 313--322
+Underfull \hbox (badness 10000) in paragraph at lines 346--355
 
  []
 
 
-Overfull \hbox (21.68202pt too wide) in paragraph at lines 325--334
+Overfull \hbox (21.68202pt too wide) in paragraph at lines 358--367
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 325--334
+Underfull \hbox (badness 10000) in paragraph at lines 358--367
 
  []
 
 [3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 339.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 339.
+Underfull \hbox (badness 4316) in paragraph at lines 369--371
+[]|\OT1/cmr/m/n/10.95 (PJ) Fig 6(5).4
+ []
+
+
+Overfull \hbox (21.68202pt too wide) in paragraph at lines 368--377
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 368--377
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 379--381
+[]|\OT1/cmr/m/n/10.95 (PJ) Sec-tion
+ []
+
+
+Overfull \hbox (21.68202pt too wide) in paragraph at lines 378--387
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 378--387
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 389--391
+[]|\OT1/cmr/m/n/10.95 (PJ) Sec-tion
+ []
+
+
+Overfull \hbox (21.68202pt too wide) in paragraph at lines 388--397
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 388--397
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 399--401
+[]|\OT1/cmr/m/n/10.95 (PJ) Sec-tion
+ []
+
+
+Overfull \hbox (21.68202pt too wide) in paragraph at lines 398--407
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 398--407
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 409--411
+[]|\OT1/cmr/m/n/10.95 (PJ) Fig-ure
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 409--411
+\OT1/cmr/m/n/10.95 6(5).31 Ti-tle
+ []
+
+
+Overfull \hbox (21.68202pt too wide) in paragraph at lines 408--417
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 408--417
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 419--421
+[]|\OT1/cmr/m/n/10.95 (PJ) Sec-tion
+ []
+
+
+Overfull \hbox (21.68202pt too wide) in paragraph at lines 418--427
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 418--427
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 429--431
+[]|\OT1/cmr/m/n/10.95 (PJ) Fig-ure
+ []
+
+
+Overfull \hbox (21.68202pt too wide) in paragraph at lines 428--437
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 428--437
+
+ []
+
+
+Overfull \hbox (21.68202pt too wide) in paragraph at lines 438--447
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 438--447
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 451--453
+\OT1/cmr/m/n/10.95 sen-tence du-pli-
+ []
+
+
+Overfull \hbox (21.68202pt too wide) in paragraph at lines 450--459
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 450--459
+
+ []
+
+
+Overfull \hbox (21.68202pt too wide) in paragraph at lines 460--469
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 460--469
+
+ []
+
+
+Overfull \hbox (21.68202pt too wide) in paragraph at lines 470--479
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 470--479
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 481--483
+\OT1/cmr/m/n/10.95 clar-i-fi-ca-tion Fig
+ []
+
+
+Overfull \hbox (21.68202pt too wide) in paragraph at lines 480--489
+[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 480--489
+
+ []
+
+[4] [5]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 494.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 494.
  (./update.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 339.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 339.
-Package rerunfilecheck Info: File `update.out' has not changed.
-(rerunfilecheck)             Checksum: C542FC3FFF8AEF005D47C2FFF54C8DC4;512.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 339.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 494.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 494.
+
+
+Package rerunfilecheck Warning: File `update.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `update.out':
+(rerunfilecheck)             Before: 61DD2498B89DEB7B8278619A6E61F77B;619
+(rerunfilecheck)             After:  94DB73BA64E18DF4C7DED7ACFA55A2D4;614.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 494.
  ) 
 Here is how much of TeX's memory you used:
- 21214 strings out of 494954
- 412871 string characters out of 6181003
+ 21216 strings out of 494954
+ 412899 string characters out of 6181003
  521021 words of memory out of 5000000
- 24135 multiletter control sequences out of 15000+600000
+ 24137 multiletter control sequences out of 15000+600000
  13345 words of font info for 52 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  55i,26n,67p,440b,335s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on update.dvi (3 pages, 20000 bytes).
+Output written on update.dvi (5 pages, 26036 bytes).
