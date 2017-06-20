@@ -40,6 +40,16 @@ Terminology
   \end{tabular} \\\hline
 \end{tabular} \newline
 
+\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+(KS)\
+Split Chapter 3
+&
+  \begin{tabular}{p{10cm}}
+  \\hline
+  Moved simulation into Chapter 2. Moved data aggregation into appendix.\\   
+  \end{tabular} \\\hline
+\end{tabular} \newline
+
 \section{Abstract}
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
@@ -154,6 +164,26 @@ References requiring page numbers
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (PJ)\
+Clarify
+&
+  \begin{tabular}{p{10cm}}
+  The coordinates of an agent\\\hline
+  The position vector is given by the coordinates of an agent\\   
+  \end{tabular} \\\hline
+\end{tabular}\newline
+
+\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+(KS)\
+Section 2.3
+&
+  \begin{tabular}{p{10cm}}
+  described in $2.2\\\hline
+  extended to include vectors\\   
+  \end{tabular} \\\hline
+\end{tabular}\newline
+
+\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+(PJ)\
 Citations sections 2.1, 2.7
 &
   \begin{tabular}{p{10cm}}
@@ -163,7 +193,7 @@ Citations sections 2.1, 2.7
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(PJ)\
+(PJ/KS)\
 Typo
 &
   \begin{tabular}{p{10cm}}
@@ -179,6 +209,16 @@ Incorrect reference
   \begin{tabular}{p{10cm}}
   Figure 2.6 shows the...\\\hline
   Equation 2.5 shows ...\\   
+  \end{tabular} \\\hline
+\end{tabular}\newline
+
+\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+(KS)\
+Incorrect reference
+&
+  \begin{tabular}{p{10cm}}
+  (Figures 2.10, 2.10, 2.11)..\\\hline
+  (Figures 2.10, 2.11, 2.12)..\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
@@ -261,7 +301,20 @@ No equation
   \end{tabular} \\\hline
 \end{tabular}\newline
 
-\section{Magnitude Metric}\label{contrib1}
+\section{Simulator}
+
+\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+(PJ)\
+Consistency in capitalisation
+&
+  \begin{tabular}{p{10cm}}
+  Player/Stage\\\hline
+  player/stage\\   
+  \end{tabular} \\\hline
+\end{tabular}\newline
+
+
+\section{Magnitude Metric}
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (KS)\
@@ -270,6 +323,16 @@ Table 4.1 $\rightarrow$ 3.1 Explain parameters
   \begin{tabular}{p{10cm}}
   Hexagonal\\\hline
   Modified labels and altered section to highlight that the parameters are arbitrary as they are only required to create a swarm to highlight the inter-agent relationships that exist.\\   
+  \end{tabular} \\\hline
+\end{tabular}\newline
+
+\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+(KS)\
+Typos
+&
+  \begin{tabular}{p{10cm}}
+  swarms\\\hline
+  swarm's\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
@@ -320,6 +383,16 @@ Equations 4(3).2, 4(3).3, 4(3).4, 4(3).6, 4(3).7, 4(3).8 and inline equations ca
   \begin{tabular}{p{10cm}}
   \textbar.\textbar\\\hline
   \textbar\textbar.\textbar\textbar for magnitude. \textbar.\textbar for cardinality\\   
+  \end{tabular} \\\hline
+\end{tabular}\newline
+
+\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+(KS)\
+Section 4.6 Typo
+&
+  \begin{tabular}{p{10cm}}
+  described is here\\\hline
+  described here\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
@@ -438,6 +511,26 @@ Section 6(5).2 Typo
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+(ks)\
+Section 6(5).7.1.1 Typo
+&
+  \begin{tabular}{p{10cm}}
+  problem can is\\\hline
+  problem is\\   
+  \end{tabular} \\\hline
+\end{tabular}\newline
+
+\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+(KS)\
+Section 6(5).7.2 Typo
+&
+  \begin{tabular}{p{10cm}}
+  algorithms selection\\\hline
+  algorithm's selection\\   
+  \end{tabular} \\\hline
+\end{tabular}\newline
+
+\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (PJ)\
 Section 6(5).8 Typo
 &
@@ -454,6 +547,36 @@ Section 6(5).8 Typo
   \begin{tabular}{p{10cm}}
   its a goal\\\hline
   towards it's goal\\   
+  \end{tabular} \\\hline
+\end{tabular}\newline
+
+\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+(KS)\
+Section 6(5).8.1 Typo
+&
+  \begin{tabular}{p{10cm}}
+  algorithm is produces\\\hline
+  algorithm produces\\   
+  \end{tabular} \\\hline
+\end{tabular}\newline
+
+\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+(KS)\
+Section 6(5).8.1 Sequence of refs
+&
+  \begin{tabular}{p{10cm}}
+  6.23, 6.25, 6.24 and 6.26\\\hline
+  6.23, 6.24, 6.25 and 6.26\\   
+  \end{tabular} \\\hline
+\end{tabular}\newline
+
+\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+(KS)\
+Section 6(5).8.3 Typo
+&
+  \begin{tabular}{p{10cm}}
+  (Figure 6.30)\\\hline
+  Figure 6(5).30\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
