@@ -14,8 +14,8 @@
 \usepackage{setspace}
 \usepackage{multirow}
 
-\newcommand{\theauthor}{NEIL ELIOT}
-\newcommand{\thetitle}{CORRECTIONS}
+\newcommand{\theauthor}{Neil Eliot}
+\newcommand{\thetitle}{Methods for the Efficient Deployment and Coordination of Swarm Robotic Systems}
 \newcommand{\themonth}{June}
 \newcommand{\theyear}{2017}
 
@@ -23,16 +23,54 @@
 \setcounter{section}{0}
 \setcounter{chapter}{1}
 \begin{Huge}
+\bfseries
 \begin{center}
-\textbf{PhD Corrections}
+\thetitle
+\newline
+\newline
+List of Corrections
+\newline
+\newline
+\theauthor
+\newline
+\newline
+\themonth
+\newline
+\theyear
+\newline
 \end{center}
 \end{Huge}
+\newpage
 
-\section{General}
+\noindent\LARGE{\textbf{List of Corrections}}\newline\newline
+\normalsize
+The following table summarises the corrections proposed to my thesis in response
+to the examiners’ and my supervisor’s suggestions.  In this table we adopt the
+following notations and assumptions:
+
+\begin{itemize}
+  \item ID stands for the number of a proposed correction.
+  \item PJ, KS shown between the two brackets refer to the examiners (Dr Peter Jancovic.
+ and Dr Konstantantinos Sirlantzis) who have suggested the correction, respectively.
+  \item In the table of each correction, the first row shows a short description of
+the proposed correction according to the page number of the original thesis;
+the second row shows the action made for the correction according to the
+page number of the old thesis.
+\end{itemize}
+
+\section{General Corrections}
+
+\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+\textbf{ID:(KS)}\
+&
+  \begin{tabular}{p{10cm}}
+  \textbf{Short description of a proposed correction.}\\\hline
+  \textbf{Action taken to resolve proposed correction.}\\   
+  \end{tabular} \\\hline
+\end{tabular} \newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (KS)\
-Terminology
 &
   \begin{tabular}{p{10cm}}
   Use of the word chaotic/chaos could be confusing\\\hline
@@ -42,79 +80,72 @@ Terminology
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (KS)\
-Split Chapter 3
 &
   \begin{tabular}{p{10cm}}
-  \\hline
-  Moved simulation into Chapter 2. Moved data aggregation into appendix.\\   
+  Context of chapter 3 could be moved to end of chapter 2 and the data analysis section moved to an appendix\\\hline   
+Moved simulation implementation from chapter 3 into Chapter 2. Moved data aggregation component into a new appendix.\\  
   \end{tabular} \\\hline
 \end{tabular} \newline
 
-\section{Abstract}
-
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(KS)\
-typo 
+(PJ \& KS)\
 &
   \begin{tabular}{p{10cm}}
-   nodes\\\hline
-   agents\\   
+  Several references are showning journal/publication title followed by \textit{`Proceedings of' or `Transaction on'}. All titles need to be made consistent:- 6, 7, 9, 10, 11, 12, 14, 15, 16, 18, 20, 24, 25, 28, 33, 37, 41, 47, 50, 52, 54, 55, 56, 58, 59, 61, 65, 67, 69, 71, 74, 76, 77, 78, 79, 82, 86, 90, 93, 94, 96, 98, 100, 113, 118, 126, 127, 130, 137, 139, 140, 141, 142, 146, 147, 150, 151, 152, 154, 155, 156, 157, 158, 161 \\\hline
+  Bibtex data file updated by restructuring the title text.\\   
   \end{tabular} \\\hline
-\end{tabular}\newline
+\end{tabular} \newline
 
-\section{Introduction}
+\section{Specific Corrections}
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (KS)\
-Section 1.1 explan boid-based 
 &
   \begin{tabular}{p{10cm}}
-   boid-based\\\hline
-   Paragraph extended to include reference and comparison\\   
+   Page (Abstract) Line 14 - Use of the term nodes needs to be made consistent with the rest of the thesis\\\hline
+   Changed to agents for consistency\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(KS)\
-Section 1.3 typo 
+(KS)\ 
 &
   \begin{tabular}{p{10cm}}
-   fire service [111], as\\\hline
-   fire service [111] as\\   
+   Page 2 Line 24 - Explain \textit{boid-based}\\\hline
+   Paragraph extended to include reference to seminal paper by Reynolds and comparison added to highlight similarity.\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (KS)\
-Section 1.5 
 &
   \begin{tabular}{p{10cm}}
-   anomalies `healing'\\\hline
-   anomalies thus `healing'\\   
+   Page 6 Line 21 - Typo - fire service [111], as\\\hline
+   updated to ``fire service [111] as"\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (KS)\
-Section 1.5 
 &
   \begin{tabular}{p{10cm}}
-   clarify Hoff reference\\\hline
-   extended sentence to include message propogation reduction\\   
+   Page 8 Line 30 - typo - anomalies `healing'\\\hline
+   updated to ``anomalies thus `healing'"\\   
+  \end{tabular} \\\hline
+\end{tabular}\newline
+
+\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+(KS)\
+&
+  \begin{tabular}{p{10cm}}
+   Page 9 Line 6 - Reference to Hoff paper requires clarification\\\hline
+   extended sentence to include message propogation reduction issue identified by Hoff\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
 \section{Bibliography}
 
-\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(PJ \& KS)\
-Dates in references are appearing twice
-&
-  \begin{tabular}{p{10cm}}
-  References 6, 7, 9, 10, 11, 12, 14, 15, 16, 18, 20, 24, 25, 28, 33, 37, 41, 47, 50, 52, 54, 55, 56, 58, 59, 61, 65, 67, 69, 71, 74, 76, 77, 78, 79, 82, 86, 90, 93, 94, 96, 98, 100, 113, 118, 126, 127, 130, 137, 139, 140, 141, 142, 146, 147, 150, 151, 152, 154, 155, 156, 157, 158, 161 \\\hline
-  ? \\   
-  \end{tabular} \\\hline
-\end{tabular} \newline
+
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (KS)\
@@ -131,7 +162,17 @@ No dates
 References with no publisher
 &
   \begin{tabular}{p{10cm}}
-  References 27, 30, 36, 42, 44, 48, 49, 51, 52, 53, 57, 60, 63, 68, 73, 81, 83, 84, 87, 88, 89, 101, 103, 108, 109, 115, 132, 149 \\\hline
+  References 27, 30, 36, 49, 60, 101, 108, 115, 132, 148, 149 \\\hline
+  ? \\   
+  \end{tabular} \\\hline
+\end{tabular}\newline
+
+\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+(KS)\
+References apostrophe missing from name
+&
+  \begin{tabular}{p{10cm}}
+  References 115 \\\hline
   ? \\   
   \end{tabular} \\\hline
 \end{tabular}\newline
@@ -155,12 +196,6 @@ References requiring page numbers
   ? \\   
   \end{tabular} \\\hline
 \end{tabular}\newline
-
-\section{Abstract}
-
-\section{Introduction}
-
-\section{Methods Techniques Tools}
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (PJ)\
@@ -231,7 +266,7 @@ Cardinality notation changed to use $||.||$\\\hline
 $nbr(b) \buildrel \Delta \over = \{b' \in S~:~|bb'| <= C_b\}$\newline
 $R(b) = \{b' \in S~:~|bb'| <= R_b\}$\newline
 $v_{r}(b) =‎ -
-\frac{1}{|R(b)|}
+\frac{1}{||R(b)||}
 \left(
 \mathlarger{\mathlarger{\sum_{b' \in R(b)}}}
 {\left( 1-\frac{|bb'|}{R_b} \right)}
@@ -474,7 +509,7 @@ Section 5.5 $\rightarrow$ 4.5 Expand
 &
   \begin{tabular}{p{10cm}}
   identical?\\\hline
-  descrition extended\\   
+  description extended\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
