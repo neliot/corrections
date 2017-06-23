@@ -43,7 +43,7 @@ List of Corrections
 \newpage
 
 \noindent\LARGE{\textbf{List of Corrections}}\newline\newline
-\normalsize
+\large
 The following table summarises the corrections proposed to my thesis in response
 to the examiners’ and my supervisor’s suggestions.  In this table we adopt the
 following notations and assumptions:
@@ -70,7 +70,7 @@ page number of the old thesis.
 \end{tabular} \newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(KS)\
+1:(KS)\
 &
   \begin{tabular}{p{10cm}}
   Use of the word chaotic/chaos could be confusing\\\hline
@@ -79,13 +79,76 @@ page number of the old thesis.
 \end{tabular} \newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(KS)\
+2:(KS)\
 &
   \begin{tabular}{p{10cm}}
   Context of chapter 3 could be moved to end of chapter 2 and the data analysis section moved to an appendix\\\hline   
 Moved simulation implementation from chapter 3 into Chapter 2. Moved data aggregation component into a new appendix.\\  
   \end{tabular} \\\hline
 \end{tabular} \newline
+
+\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+3:(PJ \& KS)\
+&
+  \begin{tabular}{p{10cm}}
+  Several references are showning journal/publication title followed by \textit{`Proceedings of' or `Transaction on'}. All titles need to be made consistent - 6, 7, 9, 10, 11, 12, 14, 15, 16, 18, 20, 24, 25, 28, 33, 37, 41, 47, 50, 52, 54, 55, 56, 58, 59, 61, 65, 67, 69, 71, 74, 76, 77, 78, 79, 82, 86, 90, 93, 94, 96, 98, 100, 113, 118, 126, 127, 130, 137, 139, 140, 141, 142, 146, 147, 150, 151, 152, 154, 155, 156, 157, 158, 161 \\\hline
+  Bibtex data file updated by restructuring the title text.\\   
+  \end{tabular} \\\hline
+\end{tabular} \newline
+
+\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+4:(KS)\
+&
+  \begin{tabular}{p{10cm}}
+   References require publication date - 21, 60, 70, 75, 92, 135  \\\hline
+  Bibtex data file updated to include publication dates\\   
+  \end{tabular} \\\hline
+\end{tabular}\newline
+
+\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+(KS)\
+&
+  \begin{tabular}{p{10cm}}
+  References with no publisher - 27, 30, 36, 49, 60, 101, 108, 115, 132, 148, 149 \\\hline
+  Bibtex data file updated to include publishers\\   
+  \end{tabular} \\\hline
+\end{tabular}\newline
+
+\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+(KS)\
+&
+  \begin{tabular}{p{10cm}}
+  Reference apostrophe missing from name - 115 \\\hline
+  Bibtex data file updated\\   
+  \end{tabular} \\\hline
+\end{tabular}\newline
+
+\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+(KS)\
+&
+  \begin{tabular}{p{10cm}}
+  References with capitalised Author - 88, 149  \\\hline
+  Bibtex data file updated\\   
+  \end{tabular} \\\hline
+\end{tabular}\newline
+
+\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+(KS)\
+&
+  \begin{tabular}{p{10cm}}
+  Reference requiring page numbers - 117  \\\hline
+  Bibtex data file updated \\   
+  \end{tabular} \\\hline
+\end{tabular}\newline
+
+\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+(PJ)\
+&
+  \begin{tabular}{p{10cm}}
+  Citations in sections 2.1 and 2.7 need to be separate out to the relevent authors rather than a single list\\\hline
+  References split out from Barnes and Bennet appropriately\\   
+  \end{tabular} \\\hline
+\end{tabular}\newline
 
 \section{Specific Corrections}
 
@@ -134,124 +197,47 @@ Moved simulation implementation from chapter 3 into Chapter 2. Moved data aggreg
   \end{tabular} \\\hline
 \end{tabular}\newline
 
-\section{Bibliography}
-
-\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(PJ \& KS)\
-Dates in references are appearing twice
-&
-  \begin{tabular}{p{10cm}}
-  References 6, 7, 9, 10, 11, 12, 14, 15, 16, 18, 20, 24, 25, 28, 33, 37, 41, 47, 50, 52, 54, 55, 56, 58, 59, 61, 65, 67, 69, 71, 74, 76, 77, 78, 79, 82, 86, 90, 93, 94, 96, 98, 100, 113, 118, 126, 127, 130, 137, 139, 140, 141, 142, 146, 147, 150, 151, 152, 154, 155, 156, 157, 158, 161 \\\hline
-  Restructured title text\\   
-  \end{tabular} \\\hline
-\end{tabular} \newline
-
-\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(KS)\
-No dates 
-&
-  \begin{tabular}{p{10cm}}
-   References 21, 60, 70, 75, 92, 135  \\\hline
-  ? \\   
-  \end{tabular} \\\hline
-\end{tabular}\newline
-
-\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(KS)\
-References with no publisher
-&
-  \begin{tabular}{p{10cm}}
-  References 27, 30, 36, 49, 60, 101, 108, 115, 132, 148, 149 \\\hline
-  ? \\   
-  \end{tabular} \\\hline
-\end{tabular}\newline
-
-\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(KS)\
-References apostrophe missing from name
-&
-  \begin{tabular}{p{10cm}}
-  References 115 \\\hline
-  ? \\   
-  \end{tabular} \\\hline
-\end{tabular}\newline
-
-\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(KS)\
-References with capitalised Author
-&
-  \begin{tabular}{p{10cm}}
-  References 88, 149  \\\hline
-  ? \\   
-  \end{tabular} \\\hline
-\end{tabular}\newline
-
-\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(KS)\
-References requiring page numbers
-&
-  \begin{tabular}{p{10cm}}
-  Reference 117  \\\hline
-  ? \\   
-  \end{tabular} \\\hline
-\end{tabular}\newline
-
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (PJ)\
-Clarify
 &
   \begin{tabular}{p{10cm}}
-  The coordinates of an agent\\\hline
-  The position vector is given by the coordinates of an agent\\   
+  Page 12 Line 9 - Description of the coordinates needs to be made clearer - \textit{The coordinates of an agent...}\\\hline
+  Re-worded section - \textit{The position vector is given by the coordinates of an agent...}\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (KS)\
-Section 2.3
 &
   \begin{tabular}{p{10cm}}
-  described in 2.2\\\hline
-  extended to include vectors\\   
-  \end{tabular} \\\hline
-\end{tabular}\newline
-
-\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(PJ)\
-Citations sections 2.1, 2.7
-&
-  \begin{tabular}{p{10cm}}
-  Separate references\\\hline
-  Split references from Barnes and Bennet appropriately\\   
+  Page 14 Line 5- explanation of vectors needs to be added as well as the back reference\\\hline
+  paragraph extended to include vector description\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (PJ/KS)\
-Typo
 &
   \begin{tabular}{p{10cm}}
-  Section 2.3 interction\\\hline
-  interaction\\   
+  Page 13 Line 15 - Typo error - \textit{interction}\\\hline
+  \textit{interaction}\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (PJ)\
-Incorrect reference
 &
   \begin{tabular}{p{10cm}}
-  Figure 2.6 shows the...\\\hline
-  Equation 2.5 shows ...\\   
+  Page 17 Line 4 - Reference error - \textit{Figure 2.6 shows the...}\\\hline
+  \textit{Equation 2.5 shows ...}\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (KS)\
-Incorrect reference
 &
   \begin{tabular}{p{10cm}}
-  (Figures 2.10, 2.10, 2.11)..\\\hline
+  Page 24 Line 21 - Referencing error - (Figures 2.10, 2.10, 2.11)..\\\hline
   (Figures 2.10, 2.11, 2.12)..\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
