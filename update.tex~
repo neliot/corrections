@@ -50,8 +50,7 @@ following notations and assumptions:
 
 \begin{itemize}
   \item ID stands for the number of a proposed correction.
-  \item PJ, KS shown between the two brackets refer to the examiners (Dr Peter Jancovic.
- and Dr Konstantantinos Sirlantzis) who have suggested the correction, respectively.
+  \item PJ, KS, NE shown between the two brackets refer to the examiners (Dr Peter Jancovic, Dr Konstantantinos Sirlantzis and Neil Eliot) who have suggested the corrections, respectively.
   \item In the table of each correction, the first row shows a short description of
 the proposed correction according to the page number of the original thesis;
 the second row shows the action made for the correction according to the
@@ -73,7 +72,7 @@ page number of the old thesis.
 1:(KS)\
 &
   \begin{tabular}{p{10cm}}
-  Use of the word chaotic/chaos could be confusing\\\hline
+  Use of the word chaotic/chaos could be confusing.\\\hline
   Renamed initial phase of the swarms development to 'disorganised' throughout.\\   
   \end{tabular} \\\hline
 \end{tabular} \newline
@@ -82,7 +81,7 @@ page number of the old thesis.
 2:(KS)\
 &
   \begin{tabular}{p{10cm}}
-  Context of chapter 3 could be moved to end of chapter 2 and the data analysis section moved to an appendix\\\hline   
+  Context of chapter 3 could be moved to end of chapter 2 and the data analysis section moved to an appendix.\\\hline   
 Moved simulation implementation from chapter 3 into Chapter 2. Moved data aggregation component into a new appendix.\\  
   \end{tabular} \\\hline
 \end{tabular} \newline
@@ -101,43 +100,89 @@ Moved simulation implementation from chapter 3 into Chapter 2. Moved data aggreg
 &
   \begin{tabular}{p{10cm}}
    References require publication date - 21, 60, 70, 75, 92, 135  \\\hline
-  Bibtex data file updated to include publication dates\\   
+  Bibtex data file updated to include publication dates.\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(KS)\
+5:(KS)\
 &
   \begin{tabular}{p{10cm}}
   References with no publisher - 27, 30, 36, 49, 60, 101, 108, 115, 132, 148, 149 \\\hline
-  Bibtex data file updated to include publishers\\   
+  Bibtex data file updated to include publishers.\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(KS)\
+6:(KS)\
 &
   \begin{tabular}{p{10cm}}
   Reference apostrophe missing from name - 115 \\\hline
-  Bibtex data file updated\\   
+  Bibtex data file updated.\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(KS)\
+7:(KS)\
 &
   \begin{tabular}{p{10cm}}
   References with capitalised Author - 88, 149  \\\hline
-  Bibtex data file updated\\   
+  Bibtex data file updated.\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(KS)\
+8:(KS)\
 &
   \begin{tabular}{p{10cm}}
-  Reference requiring page numbers - 117  \\\hline
-  Bibtex data file updated \\   
+  Reference requiring page numbers - 117\\\hline
+  Bibtex data file updated.\\   
+  \end{tabular} \\\hline
+\end{tabular}\newline
+
+\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+9:(PJ)\
+&
+  \begin{tabular}{p{10cm}}
+  Citations in sections 2.1 and 2.7 need to be separate out to the relevent authors rather than a single list.\\\hline
+  References split out from Barnes and Bennet appropriately.\\   
+  \end{tabular} \\\hline
+\end{tabular}\newline
+
+\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+10:(PJ)\
+&
+  \begin{tabular}{p{10cm}}
+Formulae 2.1, 2.3, 2.4 4.2, 4.3, 4.4, 4.6, 4.7, 4.8 - Formula notation for cardinality needs to be reviewed.\\\hline
+Cardinality notation changed to use~\textbar.\textbar~for magnitude and~\textbar\textbar.\textbar\textbar~for cardinality in both formulae and inline equations e.g.\newline
+$nbr(b) \buildrel \Delta \over = \{b' \in S~:~|bb'| <= C_b\}$\newline
+$R(b) = \{b' \in S~:~|bb'| <= R_b\}$\newline
+$v_{r}(b) =‎ -
+\frac{1}{||R(b)||}
+\left(
+\mathlarger{\mathlarger{\sum_{b' \in R(b)}}}
+{\left( 1-\frac{|bb'|}{R_b} \right)}
+{bb'}
+\right)$\newline
+$\{o\ \in O~:~|bo| <= O_b\}$ 
+  \end{tabular} \\\hline
+\end{tabular}\newline
+
+\noindent \begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+11:(PJ)\
+&
+  \begin{tabular}{p{10cm}}
+  Several spelling errors of \textit{stabalise}.\\\hline
+  Global replacement to \textit{stabilise}.   
+  \end{tabular} \\\hline
+\end{tabular}\newline
+
+\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+12:(KS)\
+&
+  \begin{tabular}{p{10cm}}
+  Several apostrophe errors on swarms\\\hline
+  Global check and replacement of references to swarm's where appropriate\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
@@ -145,42 +190,43 @@ Moved simulation implementation from chapter 3 into Chapter 2. Moved data aggreg
 (PJ)\
 &
   \begin{tabular}{p{10cm}}
-  Citations in sections 2.1 and 2.7 need to be separate out to the relevent authors rather than a single list\\\hline
-  References split out from Barnes and Bennet appropriately\\   
+  Figs 6.4, 6.28, 6.29 needs to indicate starting point of simulation.\\\hline
+  Updated graphs by adding "Start Point" and arrows to graphs.\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
+
 
 \section{Specific Corrections}
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(KS)\
+10:(KS)\
 &
   \begin{tabular}{p{10cm}}
-   Page (Abstract) Line 14 - Use of the term nodes needs to be made consistent with the rest of the thesis\\\hline
-   Changed to agents for consistency\\   
+   Page (Abstract) Line 14 - Use of the term nodes needs to be made consistent with the rest of the thesis.\\\hline
+   Changed to agents for consistency.\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(KS)\ 
+11:(KS)\ 
 &
   \begin{tabular}{p{10cm}}
-   Page 2 Line 24 - Explain \textit{boid-based}\\\hline
+   Page 2 Line 24 - Explain \textit{boid-based}.\\\hline
    Paragraph extended to include reference to seminal paper by Reynolds and comparison added to highlight similarity.\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(KS)\
+12:(KS)\
 &
   \begin{tabular}{p{10cm}}
-   Page 6 Line 21 - Typo - fire service [111], as\\\hline
-   updated to ``fire service [111] as"\\   
+   Page 6 Line 21 - Typo - ``fire service [111], as..."\\\hline
+   updated to ``fire service [111] as..."\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(KS)\
+13:(KS)\
 &
   \begin{tabular}{p{10cm}}
    Page 8 Line 30 - typo - anomalies `healing'\\\hline
@@ -189,34 +235,34 @@ Moved simulation implementation from chapter 3 into Chapter 2. Moved data aggreg
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(KS)\
+14:(KS)\
 &
   \begin{tabular}{p{10cm}}
-   Page 9 Line 6 - Reference to Hoff paper requires clarification\\\hline
-   extended sentence to include message propogation reduction issue identified by Hoff\\   
+   Page 9 Line 6 - Reference to Hoff paper requires clarification.\\\hline
+   extended sentence to include message propogation reduction issue identified by Hoff.\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(PJ)\
+15:(PJ)\
 &
   \begin{tabular}{p{10cm}}
-  Page 12 Line 9 - Description of the coordinates needs to be made clearer - \textit{The coordinates of an agent...}\\\hline
-  Re-worded section - \textit{The position vector is given by the coordinates of an agent...}\\   
+  Page 12 Line 9 - Description of the coordinates needs to be made clearer - \textit{The coordinates of an agent...}.\\\hline
+  Re-worded section - \textit{The position vector is given by the coordinates of an agent...} Also added back reference to appropriate section.\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(KS)\
+16:(KS)\
 &
   \begin{tabular}{p{10cm}}
-  Page 14 Line 5- explanation of vectors needs to be added as well as the back reference\\\hline
-  paragraph extended to include vector description\\   
+  Page 14 Line 5- explanation of vectors needs to be added as well as the back reference.\\\hline
+  paragraph extended to include vector description.\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(PJ/KS)\
+17:(PJ/KS)\
 &
   \begin{tabular}{p{10cm}}
   Page 13 Line 15 - Typo error - \textit{interction}\\\hline
@@ -237,560 +283,441 @@ Moved simulation implementation from chapter 3 into Chapter 2. Moved data aggreg
 (KS)\
 &
   \begin{tabular}{p{10cm}}
-  Page 24 Line 21 - Referencing error - (Figures 2.10, 2.10, 2.11)..\\\hline
-  (Figures 2.10, 2.11, 2.12)..\\   
+  Page 24 Line 21 - Referencing error - (Figures 2.10, 2.10, 2.11)...\\\hline
+  (Figures 2.10, 2.11, 2.12)...\\   
+  \end{tabular} \\\hline
+\end{tabular}\newline
+
+
+\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+(PJ)\
+&
+  \begin{tabular}{p{10cm}}
+  Page 18 Line 12 - Sentence restructure required - \textit{moves an obstacles...}\\\hline
+  \textit{moves it may enter an obstacle's...}
   \end{tabular} \\\hline
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (PJ)\
-Formulae 2.1, 2.3, 2.4 - Formula notation
 &
   \begin{tabular}{p{10cm}}
-Cardinality notation changed to use $||.||$\\\hline
-$nbr(b) \buildrel \Delta \over = \{b' \in S~:~|bb'| <= C_b\}$\newline
-$R(b) = \{b' \in S~:~|bb'| <= R_b\}$\newline
-$v_{r}(b) =‎ -
-\frac{1}{||R(b)||}
-\left(
-\mathlarger{\mathlarger{\sum_{b' \in R(b)}}}
-{\left( 1-\frac{|bb'|}{R_b} \right)}
-{bb'}
-\right)$\newline
-$\{o\ \in O~:~|bo| <= O_b\}$ 
+  Page 21 Line 17 - Internal reference error.\\\hline
+  Latex block error corrected - \textit{Equation 2.7} becomes \textit{Equation 2.8}. 
   \end{tabular} \\\hline
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (PJ)\
-Section 2.6 - Sentence restructure
 &
   \begin{tabular}{p{10cm}}
-  moves an obstacles\\\hline
-  moves it may enter an obstacle's 
+  Page 71 Line 1 - (Static Swarm conclusion) There needs to be a mention of the current work and the usage of the distance metric.\\\hline
+  Added a discussion of current work (with references).
   \end{tabular} \\\hline
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (PJ)\
-Section 2.8 - Special case reference error
 &
   \begin{tabular}{p{10cm}}
-  Special case of Equation 2.7\\\hline
-  Special case of Equation 2.8 
-  \end{tabular} \\\hline
-\end{tabular}\newline
-
-\noindent \begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(PJ)\
-Spelling
-&
-  \begin{tabular}{p{10cm}}
-  Section 2.11 \\amp Figure 2.12 Stabalise\\\hline
-  Stabilise   
+  Page 19 Line 13 - Section 2.6 uses unexplained notation.\\\hline
+  The \string^ is explained in section 2.9. Explanation moved back to 2.6 for clarity.\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (PJ)\
-Expand Conclusion
 &
   \begin{tabular}{p{10cm}}
-  No mention of current work\\\hline
-  Added small discussion of current work
+  Page 22 Line 7 - Section 2.9 uses inline formulae for movement.\\\hline
+  Equation broken out and referenced. Component parts of the equation discussed.\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (PJ)\
-Explain \string^
 &
   \begin{tabular}{p{10cm}}
-  Section 2.6 uses unexplained notation\\\hline
-  Moved \string^ explanation from section 2.9 to 2.6\\   
-  \end{tabular} \\\hline
-\end{tabular}\newline
-
-\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(PJ)\
-No equation
-&
-  \begin{tabular}{p{10cm}}
-  Section 2.9 uses inline formulae for movement.\\\hline
-  Equation broken out and referenced.\\   
-  \end{tabular} \\\hline
-\end{tabular}\newline
-
-\section{Simulator}
-
-\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(PJ)\
-Consistency in capitalisation
-&
-  \begin{tabular}{p{10cm}}
-  Player/Stage\\\hline
-  player/stage\\   
-  \end{tabular} \\\hline
-\end{tabular}\newline
-
-
-\section{Magnitude Metric}
-
-\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(KS)\
-Table 4.1 $\rightarrow$ 3.1 Explain parameters
-&
-  \begin{tabular}{p{10cm}}
-  Hexagonal\\\hline
-  Modified labels and altered section to highlight that the parameters are arbitrary as they are only required to create a swarm to highlight the inter-agent relationships that exist.\\   
+  Page 26 - 39 - There needs to be consistency in capitalisation of Player/Stage\\\hline
+  Update all uses to \textit{Player/Stage} (as used in other papers i.e. \textit{Player/Stage simulation of olfactory experiments} and \textit{The simulation scenario for swarm robots based on open-source software Player/Stage}).\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (KS)\
-Typos
 &
   \begin{tabular}{p{10cm}}
-  swarms\\\hline
-  swarm's\\   
+  Page 41 Table 4.1 - Explain parameters for \textit{Hexagonal Swarm}\\\hline
+  Modified labels and altered section to highlight that the parameters are arbitrary as they are only required to create a swarm to highlight the inter-agent relationships that exist. Any parameter combination will work so long as the cohesion potential field is greater than the repulsion potential field.\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (PJ)\
-Table 4.2 $\rightarrow$ 3.2 Explain Labels
 &
   \begin{tabular}{p{10cm}}
-  Log, Id, N.Id\\\hline
-  Labels expanded in text\\   
+  Page 42 - 45 - Table 4.2 - 4.5 Explain Labels \textit{Log, Id, N.Id}\\\hline
+  Labels expanded in text with descriptions\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (PJ)\
-Section 4.2 $\rightarrow$ 3.2 Sentence error
 &
   \begin{tabular}{p{10cm}}
-  vectorTable 4.4\\\hline
-  vector. Table 4.4\\   
+  Page 43 Line 6 - Error in text layout (\textit{vectorTable 4.4...})\\\hline
+  Sentence updated to \textit{vector. Table 4.4...}\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (PJ)\
-Section 4.3 $\rightarrow$ 3.3 Punctuation
 &
   \begin{tabular}{p{10cm}}
-  = 0) The\\\hline
-  = 0). The\\   
+  Page 45 Line 12 - Punctuation error ``\textit{= 0) The ...}"\\\hline
+  Updated document ``\textit{= 0). The ...}"\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (PJ)\
-Diagram 4.7 $\rightarrow$ 3.7 Label error
 &
   \begin{tabular}{p{10cm}}
-  bot\\\hline
-  agent\\   
+  Page 46 - Figure 4.7 - Label error.\\\hline
+  Changed labels referring to \textit{bot} to \textit{agent}\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (KS)\
-Equations 4(3).2, 4(3).3, 4(3).4, 4(3).6, 4(3).7, 4(3).8 and inline equations cardinality notation changed
 &
   \begin{tabular}{p{10cm}}
-  \textbar.\textbar\\\hline
-  \textbar\textbar.\textbar\textbar for magnitude. \textbar.\textbar for cardinality\\   
-  \end{tabular} \\\hline
-\end{tabular}\newline
-
-\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(KS)\
-Section 4.6 Typo
-&
-  \begin{tabular}{p{10cm}}
-  described is here\\\hline
-  described here\\   
-  \end{tabular} \\\hline
-\end{tabular}\newline
-
-\section{Swarm Type}
-
-\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(PJ)\
-Typo in introduction
-&
-  \begin{tabular}{p{10cm}}
-  is a swarm\\\hline
-  in a swarm\\   
+  Page 48 Line 15 - Typographical error.\\\hline
+  ``\textit{described is here.}" changed to ``\textit{described here.}"\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (PJ)\
-Parameter explanation, Table 5.1 $\rightarrow$ 4.1
 &
   \begin{tabular}{p{10cm}}
-  Explain parameter requirements\\\hline
-  Paragraph added\\   
+  Page 53 Line 3 - Typo in introduction.\\\hline
+  changed ``\textit{is a swarm.}" to  ``\textit{in a swarm.}"\\   
+  \end{tabular} \\\hline
+\end{tabular}\newline
+
+\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+(PJ)\
+&
+  \begin{tabular}{p{10cm}}
+  Page 54 Table 5.1 - Explain parameter requirements\\\hline
+  Paragraph extended to include an explanation of the parameters and the type of swarm they create.\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (NE)\
-Table labels in 5.1 $\rightarrow$ 4.1
 &
   \begin{tabular}{p{10cm}}
-  Neighbour and agent altered\\\hline
-  Cohesion field, Repulsion field\\   
+  Page 54 Table 5.1 - Labels in Weight component refer to neighbour and agent and should be inline with original concepts.\\\hline
+  Altered labels for field potentials to \textit{Cohesion field} and \textit{Repulsion field}.\\   
+  \end{tabular} \\\hline
+\end{tabular}\newline
+
+\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+(PJ)\ 
+&
+  \begin{tabular}{p{10cm}}
+  Page 55 Figure 5.1 - Clarify graph mean\\\hline
+  Paragraph extended to explain the concept in the graph.\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (PJ)\
-Section 5.2.1 $\rightarrow$ 4.2.1 
 &
   \begin{tabular}{p{10cm}}
-  Clarify graph mean\\\hline
-  Paragraph extended\\   
+  Page 61 Section 5.3.1 - There needs to be an explanation of what a bi-modal distibution presents\\\hline
+  Paragraph extended to explain the neighbour relationships that create the bi-modal effect when agents have extended visability beyond the first neighbour.\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (PJ)\
-Section 5.3.1 $\rightarrow$ 4.3.1 
 &
   \begin{tabular}{p{10cm}}
-  Clarify bi-modal\\\hline
-  Paragraph extended\\   
+  Page 67 Line 2 - Punctuation error. \\\hline
+  ``\textit{metric Figure 5.21...}" amended to ``\textit{metric. Figure 5.21}"\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (PJ)\
-Section 5.4 $\rightarrow$ 4.4 Comment
 &
   \begin{tabular}{p{10cm}}
-  Isn't Sect 5.4 a repetition\\\hline
-  Section is a comparison to highlight that the new metric could be used as a replacement for the distance metric and provide additional status information\\   
+  Page 71 Line 2 - Expand and clarify \textit{identical}.\\\hline
+  Description extended to explain the similarity in the graph profiles that are generated by the two metrics in a homogenous swarm\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (PJ)\
-Section 5.4 $\rightarrow$ 4.4 Punctuation
 &
   \begin{tabular}{p{10cm}}
-  metric Figure 5.21\\\hline
-  metric. Figure 5.21\\   
+  Page 74 Line 5 - Punctuation error.\\\hline
+  ``\textit{applied. Partial..} ammended to ``\textit{applied, partial...}\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (PJ)\
-Section 5.5 $\rightarrow$ 4.5 Expand
 &
   \begin{tabular}{p{10cm}}
-  identical?\\\hline
-  description extended\\   
-  \end{tabular} \\\hline
-\end{tabular}\newline
-
-\section{Perimeter Coordination}
-
-\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(PJ)\
-Typo in introduction
-&
-  \begin{tabular}{p{10cm}}
-  applied. Partial\\\hline
-  applied, partial\\   
-  \end{tabular} \\\hline
-\end{tabular}\newline
-
-\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(PJ)\
-Fig 6(5).4 6(5).28, 6(5).29
-&
-  \begin{tabular}{p{10cm}}
-  Needs to indicate starting point\\\hline
-  Added "Start Point" and arrows to graphs\\   
-  \end{tabular} \\\hline
-\end{tabular}\newline
-
-\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(PJ)\
-Section 6(5).2 Typo
-&
-  \begin{tabular}{p{10cm}}
-  there\\\hline
-  their\\   
-  \end{tabular} \\\hline
-\end{tabular}\newline
-
-\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(ks)\
-Section 6(5).7.1.1 Typo
-&
-  \begin{tabular}{p{10cm}}
-  problem can is\\\hline
-  problem is\\   
+  Page 79 Line 15 - Typographical error.\\\hline
+  ``\textit{there}" amended to ``\textit{their}"\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (KS)\
-Section 6(5).7.2 Typo
 &
   \begin{tabular}{p{10cm}}
-  algorithms selection\\\hline
-  algorithm's selection\\   
-  \end{tabular} \\\hline
-\end{tabular}\newline
-
-\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(PJ)\
-Section 6(5).8 Typo
-&
-  \begin{tabular}{p{10cm}}
-  must are\\\hline
-  are\\   
-  \end{tabular} \\\hline
-\end{tabular}\newline
-
-\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(PJ)\
-Section 6(5).8 Typo
-&
-  \begin{tabular}{p{10cm}}
-  its a goal\\\hline
-  towards it's goal\\   
+  Page 95 Line 18 - Typographical error.\\\hline
+  ``\textit{problem can is...} amended to ``\textit{problem is...}"\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (KS)\
-Section 6(5).8.1 Typo
 &
   \begin{tabular}{p{10cm}}
-  algorithm is produces\\\hline
-  algorithm produces\\   
+  Page 96 Line 18 - Typographical error.\\\hline
+  ``\textit{algorithms selection...}" amended to ``\textit{algorithm's selection...}"\\   
+  \end{tabular} \\\hline
+\end{tabular}\newline
+
+\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+(PJ)\
+&
+  \begin{tabular}{p{10cm}}
+  Page 99 Line 5 - Typographical error.\\\hline
+  ``\textit{must are}" amended to ``\textit{are...}"\\   
+  \end{tabular} \\\hline
+\end{tabular}\newline
+
+\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+(PJ)\
+&
+  \begin{tabular}{p{10cm}}
+  Page 99 Line 8 - Typographical error.\\\hline
+  ``\textit{its a goal...}" amended to ``\textit{towards it's goal...}"\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (KS)\
-Section 6(5).8.1 Sequence of refs
 &
   \begin{tabular}{p{10cm}}
-  6.23, 6.25, 6.24 and 6.26\\\hline
-  6.23, 6.24, 6.25 and 6.26\\   
+  Page 102 Line 6 - Typographical error.\\\hline
+  ``\textit{algorithm is produces...}" amended to ``\textit{algorithm produces...}"\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (KS)\
-Section 6(5).8.3 Typo
 &
   \begin{tabular}{p{10cm}}
-  (Figure 6.30)\\\hline
-  Figure 6(5).30\\   
+  Page 99 Line 17 - References are out of sequence\\\hline
+  ``\textit{6.23, 6.25, 6.24 and 6.26...}" amended to ``\textit{6.23, 6.24, 6.25 and 6.26...}"\\   
+  \end{tabular} \\\hline
+\end{tabular}\newline
+
+\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+(KS)\
+&
+  \begin{tabular}{p{10cm}}
+  Page 106 Line 12 - Typographical error.\\\hline
+  ``\textit{(Figure 6.30)}" amended to ``\textit{Figure 6.30}"\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (PJ)\
-Figure 6(5).31 Title change 
 &
   \begin{tabular}{p{10cm}}
-  speed\\\hline
-  path\\   
+  Page 109 Figure 6.31 - Error in title description\\\hline
+  ``\textit{speed}" amended to ``\textit{path}"\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (PJ)\
-Section 6(5).9 Reference 
 &
   \begin{tabular}{p{10cm}}
-  tables above\\\hline
-  Tables 6.8, 6.9 and 6.10\\   
+  Refer to tables by reference not as \textit{above}.\\\hline
+  Added references ``\textit{6.8, 6.9 and 6.10}"\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (PJ)\
-Figure 6(5).42 Font 
 &
   \begin{tabular}{p{10cm}}
-  $n_{1-7}$\\\hline
+  Page 119 Figure 6.42 - Increase font size of agent labels ($n_{1-7}$)\\\hline
   Font increased\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (PJ)\
-Missing Section
 &
   \begin{tabular}{p{10cm}}
-  Conclusion section missing\\\hline
-  Added conclusion\\   
-  \end{tabular} \\\hline
-\end{tabular}\newline
-
-\section{Concave Reduction}
-
-\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(PJ)\
-Introduction sentence duplicates explanation
-&
-  \begin{tabular}{p{10cm}}
-  Depending upon ....\\\hline
-  Sentence removed\\   
+  Page 120 - Conclusion section missing.\\\hline
+  Added conclusion to chapter.\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (PJ)\
-Expand explanation
 &
   \begin{tabular}{p{10cm}}
-  In some circumstances ...\\\hline
-  Circumstance explained\\   
+  Page 121 Line 10 - Sentence duplicates explanation.\\\hline
+  Sentence removed - \textit{Depending upon...}\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (PJ)\
-Table Reference
 &
   \begin{tabular}{p{10cm}}
-  Table 8.4 ...\\\hline
-  Table 7.1 (Error in latex label corrected)\\   
+  Page 126 Line 3 - Explanation needs to be expanded as to what circumstances concave reduction effects a swarm.\\\hline
+  ``\textit{In some circumstances...} amended to include an explanation of the effect.\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (PJ)\
-Figure title clarification Fig 7(6).12, 7(6).13
 &
   \begin{tabular}{p{10cm}}
-  Baseline/Concave path effect\\\hline
-  Baseline/Concave path effect (after 600 iterations / 60s)\\   
+  Page 130 Line 22 - Error in table reference.\\\hline
+  ``\textit{Table 8.4...}" amended to ``\textit{Table 7.1}" - Error caused by latex label not in block.\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (PJ)\
-Figure title clarification Fig 7(6).16, 7(6).18, 7(6).19
 &
   \begin{tabular}{p{10cm}}
-  (80/60)\\\hline
-  (cohesion field 80 / repulsion field 60)\\   
+  Page 135/136 Figures 7.12 and 7.13 - Title clarification required.\\\hline
+  \textit{Baseline/Concave path effect} amended to \textit{Baseline/Concave path effect (after 600 iterations / 60s)}\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (PJ)\
-Table 7.3 Location
 &
   \begin{tabular}{p{10cm}}
-  Located below Figure 7(6).19 \\\hline
-  Moved to below 7(6).16 and referenced.\\   
+  Pages 138, 139, 140 and 141 Figures 7.14, 7.15, 7.16, 7.18 and 7.19 - Title needs to have clarification of the bracketed numbers \\\hline
+  ``\textit{(80/60)}" amended to ``\textit{(cohesion field 80 / repulsion field 60)}"\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (PJ)\
-Page 143? Figure reference 7.32
 &
   \begin{tabular}{p{10cm}}
-  Incorrect latex reference\\\hline
-  Corrected\\   
+  Page 141 Table 7.3 - Location of Table 7.3 needs to be closer to Figure 7.19\\\hline
+  Moved to below 7.16 and referenced.\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (PJ)\
-Typo section 7(6).4
 &
   \begin{tabular}{p{10cm}}
-  seem\\\hline
-  seen\\   
+  Page 143 Line 1 - Incorrect internal reference.\\\hline
+  ``\textit{Figure 7.32}" amended to ``\textit{Figure 7.21}" - Incorrect latex label Corrected\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (PJ)\
-Figure title clarification 7(6).38, 7(6).39
 &
   \begin{tabular}{p{10cm}}
-  60 Obstacle\\\hline
-  repulsion field 60 units for obstacle\\   
-  \end{tabular} \\\hline
-\end{tabular}\newline
-
-\section{Flood Filling}
-
-\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(PJ)\
-Section 8.1.1 Typo
-&
-  \begin{tabular}{p{10cm}}
-  rseultant\\\hline
-  resultant\\   
+  Page 143 Line 7 - Typographical error.\\\hline
+  section 7(6).4 ``\textit{seem}" amended to ``\textit{seen}"\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (PJ)\
-Section 8.1.2 Typo
 &
   \begin{tabular}{p{10cm}}
-  space. each\\\hline
-  space. Each\\   
+  Pages 159, 160 Figures 7.38, 7.39 - Clarify \textit{60 Obstacle}\\\hline
+  Figure titles expanded to clarification repulsion field 60 units for obstacles.\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (PJ)\
-Section 8.1.2 Typo
 &
   \begin{tabular}{p{10cm}}
-  seconds. between\\\hline
-  seconds. Between\\   
+  Page 167 line 3 - Typographical error.\\\hline
+  ``\textit{rseultant}" amended to ``\textit{resultant}"\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (PJ)\
-Section 8.1.2 Typo
 &
   \begin{tabular}{p{10cm}}
-  feild\\\hline
-  field\\   
+  Page 168 Line 7 - Typographical error.\\\hline
+  ``\textit{space. each...}" amended to ``\textit{space. Each...}"\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (PJ)\
-Section 8.1.3 Sentence restructure
 &
   \begin{tabular}{p{10cm}}
-  uses a swarm that utilises\\\hline
-  uses both\\   
+  Page 169 line 1 - Typographical error.\\\hline
+  ``\textit{seconds. between...}" amended to ``\textit{seconds. Between...}"\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
 (PJ)\
-Section 8.2 Typo
 &
   \begin{tabular}{p{10cm}}
-  thier\\\hline
-  their\\   
+  Page 169 line 2 - Spelling error.\\\hline
+  \textit{feild} amended to \textit{field}\\   
+  \end{tabular} \\\hline
+\end{tabular}\newline
+
+\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+(PJ)\
+&
+  \begin{tabular}{p{10cm}}
+  Page 186 Line 32 - Sentence requires restructing.\\\hline
+  Restructured sentence \textit{swarm that utilises...} to \textit{uses both...}\\   
+  \end{tabular} \\\hline
+\end{tabular}\newline
+
+\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+(PJ)\
+&
+  \begin{tabular}{p{10cm}}
+  Page 30 line 13 - Spelling error.\\\hline
+  ``\textit{thier}" amended to ``\textit{their}"\\   
+  \end{tabular} \\\hline
+\end{tabular}\newline
+
+\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+(PJ)\
+&
+  \begin{tabular}{p{10cm}}
+  Page 173 line 15 - Spelling error.\\\hline
+  ``\textit{thier}" amended to ``\textit{their}"\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
@@ -799,18 +726,8 @@ Section 8.2 Typo
 Section 8.2.1 Typo
 &
   \begin{tabular}{p{10cm}}
-  stabalises\\\hline
-  stabilises\\   
-  \end{tabular} \\\hline
-\end{tabular}\newline
-
-\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(PJ)\
-Section 8.2.1 Typo
-&
-  \begin{tabular}{p{10cm}}
-  distrurbances\\\hline
-  disturbances\\   
+    Page 176 line 7 - Spelling error.\\\hline
+  ``\textit{distrurbance}" amended to ``\textit{disturbance}"\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
