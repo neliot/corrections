@@ -19,6 +19,10 @@
 \newcommand{\themonth}{June}
 \newcommand{\theyear}{2017}
 
+\newcommand{\card}[1]{\vert{#1}\vert}
+\newcommand{\magn}[1]{\Vert{#1}\Vert}
+
+
 \begin{document}
 \setcounter{section}{0}
 \setcounter{chapter}{1}
@@ -50,7 +54,7 @@ following notations and assumptions:
 
 \begin{itemize}
   \item ID stands for the number of a proposed correction.
-  \item PJ, KS, NE shown between the two brackets refer to the examiners (Dr Peter Jancovic, Dr Konstantantinos Sirlantzis and Neil Eliot) who have suggested the corrections, respectively.
+  \item PJ, KS, NE shown between the two brackets refer to the examiners (Dr Peter Jancovic, Dr Konstantantinos Sirlantzis) who have suggested the corrections, respectively. NE referes to Neil Eliot, the author.
   \item In the table of each correction, the first row shows a short description of
 the proposed correction according to the page number of the original thesis;
 the second row shows the action made for the correction according to the
@@ -90,7 +94,7 @@ Moved simulation implementation from chapter 3 into Chapter 2. Moved data aggreg
 3:(PJ \& KS)\
 &
   \begin{tabular}{p{10cm}}
-  Several references are showning journal/publication title followed by \textit{`Proceedings of' or `Transaction on'}. All titles need to be made consistent - 6, 7, 9, 10, 11, 12, 14, 15, 16, 18, 20, 24, 25, 28, 33, 37, 41, 47, 50, 52, 54, 55, 56, 58, 59, 61, 65, 67, 69, 71, 74, 76, 77, 78, 79, 82, 86, 90, 93, 94, 96, 98, 100, 113, 118, 126, 127, 130, 137, 139, 140, 141, 142, 146, 147, 150, 151, 152, 154, 155, 156, 157, 158, 161 \\\hline
+  Several references are showing journal/publication title followed by \textit{`Proceedings of' or `Transaction on'}. All titles need to be made consistent - 6, 7, 9, 10, 11, 12, 14, 15, 16, 18, 20, 24, 25, 28, 33, 37, 41, 47, 50, 52, 54, 55, 56, 58, 59, 61, 65, 67, 69, 71, 74, 76, 77, 78, 79, 82, 86, 90, 93, 94, 96, 98, 100, 113, 118, 126, 127, 130, 137, 139, 140, 141, 142, 146, 147, 150, 151, 152, 154, 155, 156, 157, 158, 161 \\\hline
   Bibtex data file updated by restructuring the title text.\\   
   \end{tabular} \\\hline
 \end{tabular} \newline
@@ -144,7 +148,7 @@ Moved simulation implementation from chapter 3 into Chapter 2. Moved data aggreg
 9:(PJ)\
 &
   \begin{tabular}{p{10cm}}
-  Citations in sections 2.1 and 2.7 need to be separate out to the relevent authors rather than a single list.\\\hline
+  Citations in sections 2.1 and 2.7 need to be separate out to the relevant authors rather than a single list.\\\hline
   References split out from Barnes and Bennet appropriately.\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
@@ -154,17 +158,17 @@ Moved simulation implementation from chapter 3 into Chapter 2. Moved data aggreg
 &
   \begin{tabular}{p{10cm}}
 Formulae 2.1, 2.3, 2.4 4.2, 4.3, 4.4, 4.6, 4.7, 4.8 - Formula notation for cardinality needs to be reviewed.\\\hline
-Cardinality notation changed to use~\textbar.\textbar~for magnitude and~\textbar\textbar.\textbar\textbar~for cardinality in both formulae and inline equations e.g.\newline
-$nbr(b) \buildrel \Delta \over = \{b' \in S~:~|bb'| <= C_b\}$\newline
-$R(b) = \{b' \in S~:~|bb'| <= R_b\}$\newline
+Cardinality notation changed to use~$\card{.}$~for magnitude and~$\magn{.}$~for cardinality in both formulae and inline equations e.g.\newline
+$nbr(b) \buildrel \Delta \over = \{b' \in S~:~\magn{bb'} <= C_b\}$\newline
+$R(b) = \{b' \in S~:~\magn{bb'} <= R_b\}$\newline
 $v_{r}(b) =‎ -
-\frac{1}{||R(b)||}
+\frac{1}{\card{R(b)}}
 \left(
 \mathlarger{\mathlarger{\sum_{b' \in R(b)}}}
-{\left( 1-\frac{|bb'|}{R_b} \right)}
+{\left( 1-\frac{\magn{bb'}}{R_b} \right)}
 {bb'}
 \right)$\newline
-$\{o\ \in O~:~|bo| <= O_b\}$ 
+$\{o\ \in O~:~\magn{bo} <= O_b\}$ 
   \end{tabular} \\\hline
 \end{tabular}\newline
 
@@ -187,7 +191,7 @@ $\{o\ \in O~:~|bo| <= O_b\}$
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(PJ)\
+13:(PJ)\
 &
   \begin{tabular}{p{10cm}}
   Figs 6.4, 6.28, 6.29 needs to indicate starting point of simulation.\\\hline
@@ -199,7 +203,7 @@ $\{o\ \in O~:~|bo| <= O_b\}$
 \section{Specific Corrections}
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-10:(KS)\
+14:(KS)\
 &
   \begin{tabular}{p{10cm}}
    Page (Abstract) Line 14 - Use of the term nodes needs to be made consistent with the rest of the thesis.\\\hline
@@ -208,7 +212,7 @@ $\{o\ \in O~:~|bo| <= O_b\}$
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-11:(KS)\ 
+15:(KS)\ 
 &
   \begin{tabular}{p{10cm}}
    Page 2 Line 24 - Explain \textit{boid-based}.\\\hline
@@ -217,7 +221,7 @@ $\{o\ \in O~:~|bo| <= O_b\}$
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-12:(KS)\
+16:(KS)\
 &
   \begin{tabular}{p{10cm}}
    Page 6 Line 21 - Typo - ``fire service [111], as..."\\\hline
@@ -226,7 +230,7 @@ $\{o\ \in O~:~|bo| <= O_b\}$
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-13:(KS)\
+17:(KS)\
 &
   \begin{tabular}{p{10cm}}
    Page 8 Line 30 - typo - anomalies `healing'\\\hline
@@ -239,12 +243,12 @@ $\{o\ \in O~:~|bo| <= O_b\}$
 &
   \begin{tabular}{p{10cm}}
    Page 9 Line 6 - Reference to Hoff paper requires clarification.\\\hline
-   extended sentence to include message propogation reduction issue identified by Hoff.\\   
+   extended sentence to include message propagation reduction issue identified by Hoff.\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-15:(PJ)\
+19:(PJ)\
 &
   \begin{tabular}{p{10cm}}
   Page 12 Line 9 - Description of the coordinates needs to be made clearer - \textit{The coordinates of an agent...}.\\\hline
@@ -253,7 +257,7 @@ $\{o\ \in O~:~|bo| <= O_b\}$
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-16:(KS)\
+20:(KS)\
 &
   \begin{tabular}{p{10cm}}
   Page 14 Line 5- explanation of vectors needs to be added as well as the back reference.\\\hline
@@ -262,7 +266,7 @@ $\{o\ \in O~:~|bo| <= O_b\}$
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-17:(PJ/KS)\
+21:(PJ/KS)\
 &
   \begin{tabular}{p{10cm}}
   Page 13 Line 15 - Typo error - \textit{interction}\\\hline
@@ -271,7 +275,7 @@ $\{o\ \in O~:~|bo| <= O_b\}$
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(PJ)\
+22:(PJ)\
 &
   \begin{tabular}{p{10cm}}
   Page 17 Line 4 - Reference error - \textit{Figure 2.6 shows the...}\\\hline
@@ -280,7 +284,7 @@ $\{o\ \in O~:~|bo| <= O_b\}$
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(KS)\
+23:(KS)\
 &
   \begin{tabular}{p{10cm}}
   Page 24 Line 21 - Referencing error - (Figures 2.10, 2.10, 2.11)...\\\hline
@@ -290,7 +294,7 @@ $\{o\ \in O~:~|bo| <= O_b\}$
 
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(PJ)\
+24:(PJ)\
 &
   \begin{tabular}{p{10cm}}
   Page 18 Line 12 - Sentence restructure required - \textit{moves an obstacles...}\\\hline
@@ -299,7 +303,7 @@ $\{o\ \in O~:~|bo| <= O_b\}$
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(PJ)\
+25:(PJ)\
 &
   \begin{tabular}{p{10cm}}
   Page 21 Line 17 - Internal reference error.\\\hline
@@ -308,7 +312,7 @@ $\{o\ \in O~:~|bo| <= O_b\}$
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(PJ)\
+26:(PJ)\
 &
   \begin{tabular}{p{10cm}}
   Page 71 Line 1 - (Static Swarm conclusion) There needs to be a mention of the current work and the usage of the distance metric.\\\hline
@@ -317,7 +321,7 @@ $\{o\ \in O~:~|bo| <= O_b\}$
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(PJ)\
+27:(PJ)\
 &
   \begin{tabular}{p{10cm}}
   Page 19 Line 13 - Section 2.6 uses unexplained notation.\\\hline
@@ -326,7 +330,7 @@ $\{o\ \in O~:~|bo| <= O_b\}$
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(PJ)\
+28:(PJ)\
 &
   \begin{tabular}{p{10cm}}
   Page 22 Line 7 - Section 2.9 uses inline formulae for movement.\\\hline
@@ -335,7 +339,7 @@ $\{o\ \in O~:~|bo| <= O_b\}$
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(PJ)\
+29:(PJ)\
 &
   \begin{tabular}{p{10cm}}
   Page 26 - 39 - There needs to be consistency in capitalisation of Player/Stage\\\hline
@@ -344,7 +348,7 @@ $\{o\ \in O~:~|bo| <= O_b\}$
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(KS)\
+30:(KS)\
 &
   \begin{tabular}{p{10cm}}
   Page 41 Table 4.1 - Explain parameters for \textit{Hexagonal Swarm}\\\hline
@@ -353,7 +357,7 @@ $\{o\ \in O~:~|bo| <= O_b\}$
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(PJ)\
+31:(PJ)\
 &
   \begin{tabular}{p{10cm}}
   Page 42 - 45 - Table 4.2 - 4.5 Explain Labels \textit{Log, Id, N.Id}\\\hline
@@ -362,7 +366,7 @@ $\{o\ \in O~:~|bo| <= O_b\}$
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(PJ)\
+32:(PJ)\
 &
   \begin{tabular}{p{10cm}}
   Page 43 Line 6 - Error in text layout (\textit{vectorTable 4.4...})\\\hline
@@ -371,7 +375,7 @@ $\{o\ \in O~:~|bo| <= O_b\}$
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(PJ)\
+33:(PJ)\
 &
   \begin{tabular}{p{10cm}}
   Page 45 Line 12 - Punctuation error ``\textit{= 0) The ...}"\\\hline
@@ -380,7 +384,7 @@ $\{o\ \in O~:~|bo| <= O_b\}$
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(PJ)\
+34:(PJ)\
 &
   \begin{tabular}{p{10cm}}
   Page 46 - Figure 4.7 - Label error.\\\hline
@@ -389,7 +393,7 @@ $\{o\ \in O~:~|bo| <= O_b\}$
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(KS)\
+35:(KS)\
 &
   \begin{tabular}{p{10cm}}
   Page 48 Line 15 - Typographical error.\\\hline
@@ -398,7 +402,7 @@ $\{o\ \in O~:~|bo| <= O_b\}$
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(PJ)\
+36:(PJ)\
 &
   \begin{tabular}{p{10cm}}
   Page 53 Line 3 - Typo in introduction.\\\hline
@@ -407,7 +411,7 @@ $\{o\ \in O~:~|bo| <= O_b\}$
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(PJ)\
+37:(PJ)\
 &
   \begin{tabular}{p{10cm}}
   Page 54 Table 5.1 - Explain parameter requirements\\\hline
@@ -416,7 +420,7 @@ $\{o\ \in O~:~|bo| <= O_b\}$
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(NE)\
+38:(NE)\
 &
   \begin{tabular}{p{10cm}}
   Page 54 Table 5.1 - Labels in Weight component refer to neighbour and agent and should be inline with original concepts.\\\hline
@@ -425,7 +429,7 @@ $\{o\ \in O~:~|bo| <= O_b\}$
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(PJ)\ 
+39:(PJ)\ 
 &
   \begin{tabular}{p{10cm}}
   Page 55 Figure 5.1 - Clarify graph mean\\\hline
@@ -434,16 +438,16 @@ $\{o\ \in O~:~|bo| <= O_b\}$
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(PJ)\
+40:(PJ)\
 &
   \begin{tabular}{p{10cm}}
-  Page 61 Section 5.3.1 - There needs to be an explanation of what a bi-modal distibution presents\\\hline
-  Paragraph extended to explain the neighbour relationships that create the bi-modal effect when agents have extended visability beyond the first neighbour.\\   
+  Page 61 Section 5.3.1 - There needs to be an explanation of what a bi-modal distribution presents\\\hline
+  Paragraph extended to explain the neighbour relationships that create the bi-modal effect when agents have extended visibility beyond the first neighbour.\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(PJ)\
+41:(PJ)\
 &
   \begin{tabular}{p{10cm}}
   Page 67 Line 2 - Punctuation error. \\\hline
@@ -452,25 +456,25 @@ $\{o\ \in O~:~|bo| <= O_b\}$
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(PJ)\
+42:(PJ)\
 &
   \begin{tabular}{p{10cm}}
   Page 71 Line 2 - Expand and clarify \textit{identical}.\\\hline
-  Description extended to explain the similarity in the graph profiles that are generated by the two metrics in a homogenous swarm\\   
+  Description extended to explain the similarity in the graph profiles that are generated by the two metrics in a homogeneous swarm\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(PJ)\
+43:(PJ)\
 &
   \begin{tabular}{p{10cm}}
   Page 74 Line 5 - Punctuation error.\\\hline
-  ``\textit{applied. Partial..} ammended to ``\textit{applied, partial...}\\   
+  ``\textit{applied. Partial..} amended to ``\textit{applied, partial...}\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(PJ)\
+44:(PJ)\
 &
   \begin{tabular}{p{10cm}}
   Page 79 Line 15 - Typographical error.\\\hline
@@ -479,7 +483,7 @@ $\{o\ \in O~:~|bo| <= O_b\}$
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(KS)\
+45:(KS)\
 &
   \begin{tabular}{p{10cm}}
   Page 95 Line 18 - Typographical error.\\\hline
@@ -488,7 +492,7 @@ $\{o\ \in O~:~|bo| <= O_b\}$
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(KS)\
+46:(KS)\
 &
   \begin{tabular}{p{10cm}}
   Page 96 Line 18 - Typographical error.\\\hline
@@ -497,7 +501,7 @@ $\{o\ \in O~:~|bo| <= O_b\}$
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(PJ)\
+47:(PJ)\
 &
   \begin{tabular}{p{10cm}}
   Page 99 Line 5 - Typographical error.\\\hline
@@ -506,7 +510,7 @@ $\{o\ \in O~:~|bo| <= O_b\}$
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(PJ)\
+48:(PJ)\
 &
   \begin{tabular}{p{10cm}}
   Page 99 Line 8 - Typographical error.\\\hline
@@ -515,7 +519,7 @@ $\{o\ \in O~:~|bo| <= O_b\}$
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(KS)\
+49:(KS)\
 &
   \begin{tabular}{p{10cm}}
   Page 102 Line 6 - Typographical error.\\\hline
@@ -524,7 +528,7 @@ $\{o\ \in O~:~|bo| <= O_b\}$
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(KS)\
+50:(KS)\
 &
   \begin{tabular}{p{10cm}}
   Page 99 Line 17 - References are out of sequence\\\hline
@@ -533,7 +537,7 @@ $\{o\ \in O~:~|bo| <= O_b\}$
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(KS)\
+51:(KS)\
 &
   \begin{tabular}{p{10cm}}
   Page 106 Line 12 - Typographical error.\\\hline
@@ -542,7 +546,7 @@ $\{o\ \in O~:~|bo| <= O_b\}$
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(PJ)\
+52:(PJ)\
 &
   \begin{tabular}{p{10cm}}
   Page 109 Figure 6.31 - Error in title description\\\hline
@@ -551,7 +555,7 @@ $\{o\ \in O~:~|bo| <= O_b\}$
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(PJ)\
+53:(PJ)\
 &
   \begin{tabular}{p{10cm}}
   Refer to tables by reference not as \textit{above}.\\\hline
@@ -560,7 +564,7 @@ $\{o\ \in O~:~|bo| <= O_b\}$
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(PJ)\
+54:(PJ)\
 &
   \begin{tabular}{p{10cm}}
   Page 119 Figure 6.42 - Increase font size of agent labels ($n_{1-7}$)\\\hline
@@ -569,7 +573,7 @@ $\{o\ \in O~:~|bo| <= O_b\}$
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(PJ)\
+55:(PJ)\
 &
   \begin{tabular}{p{10cm}}
   Page 120 - Conclusion section missing.\\\hline
@@ -578,7 +582,7 @@ $\{o\ \in O~:~|bo| <= O_b\}$
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(PJ)\
+56:(PJ)\
 &
   \begin{tabular}{p{10cm}}
   Page 121 Line 10 - Sentence duplicates explanation.\\\hline
@@ -587,7 +591,7 @@ $\{o\ \in O~:~|bo| <= O_b\}$
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(PJ)\
+57:(PJ)\
 &
   \begin{tabular}{p{10cm}}
   Page 126 Line 3 - Explanation needs to be expanded as to what circumstances concave reduction effects a swarm.\\\hline
@@ -596,7 +600,7 @@ $\{o\ \in O~:~|bo| <= O_b\}$
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(PJ)\
+58:(PJ)\
 &
   \begin{tabular}{p{10cm}}
   Page 130 Line 22 - Error in table reference.\\\hline
@@ -605,7 +609,7 @@ $\{o\ \in O~:~|bo| <= O_b\}$
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(PJ)\
+59:(PJ)\
 &
   \begin{tabular}{p{10cm}}
   Page 135/136 Figures 7.12 and 7.13 - Title clarification required.\\\hline
@@ -614,7 +618,7 @@ $\{o\ \in O~:~|bo| <= O_b\}$
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(PJ)\
+60:(PJ)\
 &
   \begin{tabular}{p{10cm}}
   Pages 138, 139, 140 and 141 Figures 7.14, 7.15, 7.16, 7.18 and 7.19 - Title needs to have clarification of the bracketed numbers \\\hline
@@ -623,7 +627,7 @@ $\{o\ \in O~:~|bo| <= O_b\}$
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(PJ)\
+61:(PJ)\
 &
   \begin{tabular}{p{10cm}}
   Page 141 Table 7.3 - Location of Table 7.3 needs to be closer to Figure 7.19\\\hline
@@ -632,7 +636,7 @@ $\{o\ \in O~:~|bo| <= O_b\}$
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(PJ)\
+62:(PJ)\
 &
   \begin{tabular}{p{10cm}}
   Page 143 Line 1 - Incorrect internal reference.\\\hline
@@ -641,7 +645,7 @@ $\{o\ \in O~:~|bo| <= O_b\}$
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(PJ)\
+63:(PJ)\
 &
   \begin{tabular}{p{10cm}}
   Page 143 Line 7 - Typographical error.\\\hline
@@ -650,7 +654,7 @@ $\{o\ \in O~:~|bo| <= O_b\}$
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(PJ)\
+64:(PJ)\
 &
   \begin{tabular}{p{10cm}}
   Pages 159, 160 Figures 7.38, 7.39 - Clarify \textit{60 Obstacle}\\\hline
@@ -659,7 +663,7 @@ $\{o\ \in O~:~|bo| <= O_b\}$
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(PJ)\
+65:(PJ)\
 &
   \begin{tabular}{p{10cm}}
   Page 167 line 3 - Typographical error.\\\hline
@@ -668,7 +672,7 @@ $\{o\ \in O~:~|bo| <= O_b\}$
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(PJ)\
+66:(PJ)\
 &
   \begin{tabular}{p{10cm}}
   Page 168 Line 7 - Typographical error.\\\hline
@@ -677,7 +681,7 @@ $\{o\ \in O~:~|bo| <= O_b\}$
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(PJ)\
+67:(PJ)\
 &
   \begin{tabular}{p{10cm}}
   Page 169 line 1 - Typographical error.\\\hline
@@ -686,7 +690,7 @@ $\{o\ \in O~:~|bo| <= O_b\}$
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(PJ)\
+68:(PJ)\
 &
   \begin{tabular}{p{10cm}}
   Page 169 line 2 - Spelling error.\\\hline
@@ -695,16 +699,16 @@ $\{o\ \in O~:~|bo| <= O_b\}$
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(PJ)\
+69:(PJ)\
 &
   \begin{tabular}{p{10cm}}
-  Page 186 Line 32 - Sentence requires restructing.\\\hline
+  Page 186 Line 32 - Sentence requires restructuring.\\\hline
   Restructured sentence \textit{swarm that utilises...} to \textit{uses both...}\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(PJ)\
+70:(PJ)\
 &
   \begin{tabular}{p{10cm}}
   Page 30 line 13 - Spelling error.\\\hline
@@ -713,7 +717,7 @@ $\{o\ \in O~:~|bo| <= O_b\}$
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(PJ)\
+71:(PJ)\
 &
   \begin{tabular}{p{10cm}}
   Page 173 line 15 - Spelling error.\\\hline
@@ -722,7 +726,7 @@ $\{o\ \in O~:~|bo| <= O_b\}$
 \end{tabular}\newline
 
 \noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
-(PJ)\
+72:(PJ)\
 &
   \begin{tabular}{p{10cm}}
     Page 176 line 7 - Spelling error.\\\hline
@@ -730,7 +734,14 @@ $\{o\ \in O~:~|bo| <= O_b\}$
   \end{tabular} \\\hline
 \end{tabular}\newline
 
-\section{Future Work}\label{paper1}
+\noindent\begin{tabular}{|p{3cm}||@{}c@{}|}\hline
+73:(NE)\
+&
+  \begin{tabular}{p{10cm}}
+    Page 46 Equation 4.4 - Formula error.\\\hline
+  ``\textit{$b'$}" amended to ``\textit{$b$}"\\   
+  \end{tabular} \\\hline
+\end{tabular}\newline
 
 \end{document}
 
