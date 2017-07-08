@@ -158,7 +158,7 @@ Moved simulation implementation from chapter 3 into Chapter 2. Moved data aggreg
 &
   \begin{tabular}{p{10cm}}
 Formulae 2.1, 2.3, 2.4 4.2, 4.3, 4.4, 4.6, 4.7, 4.8 - Formula notation for cardinality needs to be reviewed.\\\hline
-Cardinality notation changed to use~\card{.}~for magnitude and~\magn{.}~for cardinality in both formulae and inline equations e.g.\newline
+Cardinality notation changed to use~$\card{.}$~for magnitude and~$\magn{.}$~for cardinality in both formulae and inline equations e.g.\newline
 $nbr(b) \buildrel \Delta \over = \{b' \in S~:~\magn{bb'} <= C_b\}$\newline
 $R(b) = \{b' \in S~:~\magn{bb'} <= R_b\}$\newline
 $v_{r}(b) =‎ -
@@ -207,7 +207,7 @@ $\{o\ \in O~:~\magn{bo} <= O_b\}$
 &
   \begin{tabular}{p{10cm}}
    Page (Abstract) Line 14 - Use of the term nodes needs to be made consistent with the rest of the thesis.\\\hline
-   Changed to agents for consistency.\\   
+   Following abstract updates the section which mentions nodes is no longer present.\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
@@ -216,7 +216,7 @@ $\{o\ \in O~:~\magn{bo} <= O_b\}$
 &
   \begin{tabular}{p{10cm}}
    Page 2 Line 24 - Explain \textit{boid-based}.\\\hline
-   Paragraph extended to include reference to seminal paper by Reynolds and comparison added to highlight similarity.\\   
+   Page 2 Line 24 - Paragraph extended to include reference to seminal paper by Reynolds and comparison added to highlight similarity.\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
@@ -225,7 +225,7 @@ $\{o\ \in O~:~\magn{bo} <= O_b\}$
 &
   \begin{tabular}{p{10cm}}
    Page 6 Line 21 - Typo - ``fire service [111], as..."\\\hline
-   updated to ``fire service [111] as..."\\   
+   Page 6 Line 21 - Updated to ``fire service [111] as..."\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
@@ -234,7 +234,7 @@ $\{o\ \in O~:~\magn{bo} <= O_b\}$
 &
   \begin{tabular}{p{10cm}}
    Page 8 Line 30 - typo - anomalies `healing'\\\hline
-   updated to ``anomalies thus `healing'"\\   
+   Page 8 Line 30 - U   pdated to ``anomalies thus `healing'"\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 
@@ -243,7 +243,7 @@ $\{o\ \in O~:~\magn{bo} <= O_b\}$
 &
   \begin{tabular}{p{10cm}}
    Page 9 Line 6 - Reference to Hoff paper requires clarification.\\\hline
-   extended sentence to include message propagation reduction issue identified by Hoff.\\   
+   Page 9 Line 6 - Extended sentence to include message propagation reduction issue identified by Hoff.\\   
   \end{tabular} \\\hline
 \end{tabular}\newline
 

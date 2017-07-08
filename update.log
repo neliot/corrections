@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2016.4.11)  28 JUN 2017 14:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2016.7.11)  8 JUL 2017 16:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **update
 (./update.tex
 LaTeX2e <2016/02/01>
-Babel <3.9q> and hyphenation patterns for 3 language(s) loaded.
+Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
@@ -1612,24 +1612,17 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 746.
  (./update.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 746.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 746.
-
-
-Package rerunfilecheck Warning: File `update.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `update.out':
-(rerunfilecheck)             Before: 716E4195DDFEB0975694706BD808C9B6;56
-(rerunfilecheck)             After:  9E0E1F3738CF095D0A97F755934D5D0F;113.
+Package rerunfilecheck Info: File `update.out' has not changed.
+(rerunfilecheck)             Checksum: 9E0E1F3738CF095D0A97F755934D5D0F;113.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 746.
  ) 
 Here is how much of TeX's memory you used:
- 21210 strings out of 494954
- 412814 string characters out of 6181003
- 523021 words of memory out of 5000000
- 24130 multiletter control sequences out of 15000+600000
+ 21211 strings out of 493030
+ 412827 string characters out of 6136260
+ 527861 words of memory out of 5000000
+ 24382 multiletter control sequences out of 15000+600000
  14604 words of font info for 56 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
+ 1141 hyphenation exceptions out of 8191
  55i,26n,67p,465b,327s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on update.dvi (8 pages, 39380 bytes).
+Output written on update.dvi (8 pages, 39668 bytes).
