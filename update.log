@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2016.4.11)  11 JUL 2017 13:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2016.4.11)  11 JUL 2017 20:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1266,7 +1266,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 431--439
 
  []
 
-
+[5]
 Overfull \hbox (21.68202pt too wide) in paragraph at lines 440--448
 [] 
  []
@@ -1276,7 +1276,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 440--448
 
  []
 
-[5]
+
 Overfull \hbox (21.68202pt too wide) in paragraph at lines 449--457
 [] 
  []
@@ -1396,7 +1396,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 548--556
 
  []
 
-
+[6]
 Overfull \hbox (21.68202pt too wide) in paragraph at lines 557--565
 [] 
  []
@@ -1436,7 +1436,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 584--592
 
  []
 
-[6]
+
 Overfull \hbox (21.68202pt too wide) in paragraph at lines 593--601
 [] 
  []
@@ -1516,7 +1516,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 656--664
 
  []
 
-
+[7]
 Overfull \hbox (21.68202pt too wide) in paragraph at lines 665--673
 [] 
  []
@@ -1576,7 +1576,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 710--718
 
  []
 
-[7]
+
 Overfull \hbox (21.68202pt too wide) in paragraph at lines 719--727
 [] 
  []
@@ -1609,10 +1609,10 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 737.
 Here is how much of TeX's memory you used:
  21211 strings out of 494954
  412827 string characters out of 6181003
- 523021 words of memory out of 5000000
+ 521021 words of memory out of 5000000
  24131 multiletter control sequences out of 15000+600000
  14604 words of font info for 56 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  55i,26n,67p,465b,327s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on update.dvi (8 pages, 39704 bytes).
+Output written on update.dvi (8 pages, 40892 bytes).
