@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2016.7.11)  8 JUL 2017 16:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=latex 2016.4.11)  11 JUL 2017 13:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **update
 (./update.tex
 LaTeX2e <2016/02/01>
-Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
+Babel <3.9q> and hyphenation patterns for 3 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
 (/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
@@ -1097,12 +1097,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 277--285
  []
 
 
-Overfull \hbox (21.68202pt too wide) in paragraph at lines 286--294
+Overfull \hbox (21.68202pt too wide) in paragraph at lines 287--295
 [] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 286--294
+Underfull \hbox (badness 10000) in paragraph at lines 287--295
 
  []
 
@@ -1156,7 +1156,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 332--340
 
  []
 
-
+[4]
 Overfull \hbox (21.68202pt too wide) in paragraph at lines 341--349
 [] 
  []
@@ -1166,7 +1166,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 341--349
 
  []
 
-[4]
+
 Overfull \hbox (21.68202pt too wide) in paragraph at lines 350--358
 [] 
  []
@@ -1276,7 +1276,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 440--448
 
  []
 
-
+[5]
 Overfull \hbox (21.68202pt too wide) in paragraph at lines 449--457
 [] 
  []
@@ -1286,7 +1286,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 449--457
 
  []
 
-[5]
+
 Overfull \hbox (21.68202pt too wide) in paragraph at lines 458--466
 [] 
  []
@@ -1436,7 +1436,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 584--592
 
  []
 
-
+[6]
 Overfull \hbox (21.68202pt too wide) in paragraph at lines 593--601
 [] 
  []
@@ -1446,7 +1446,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 593--601
 
  []
 
-[6]
+
 Overfull \hbox (21.68202pt too wide) in paragraph at lines 602--610
 [] 
  []
@@ -1576,7 +1576,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 710--718
 
  []
 
-
+[7]
 Overfull \hbox (21.68202pt too wide) in paragraph at lines 719--727
 [] 
  []
@@ -1586,7 +1586,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 719--727
 
  []
 
-[7]
+
 Overfull \hbox (21.68202pt too wide) in paragraph at lines 728--736
 [] 
  []
@@ -1596,33 +1596,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 728--736
 
  []
 
-
-Overfull \hbox (21.68202pt too wide) in paragraph at lines 737--745
-[] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 737--745
-
- []
-
 [8]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 746.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 746.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 737.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 737.
  (./update.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 746.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 746.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 737.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 737.
 Package rerunfilecheck Info: File `update.out' has not changed.
 (rerunfilecheck)             Checksum: 9E0E1F3738CF095D0A97F755934D5D0F;113.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 746.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 737.
  ) 
 Here is how much of TeX's memory you used:
- 21211 strings out of 493030
- 412827 string characters out of 6136260
- 527861 words of memory out of 5000000
- 24382 multiletter control sequences out of 15000+600000
+ 21211 strings out of 494954
+ 412827 string characters out of 6181003
+ 523021 words of memory out of 5000000
+ 24131 multiletter control sequences out of 15000+600000
  14604 words of font info for 56 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
+ 14 hyphenation exceptions out of 8191
  55i,26n,67p,465b,327s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on update.dvi (8 pages, 39668 bytes).
+Output written on update.dvi (8 pages, 39704 bytes).
